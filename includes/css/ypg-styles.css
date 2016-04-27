@@ -1,0 +1,3212 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Lato, Helvetica, sans-serif;
+}
+@media(max-width:767px) {
+    .navbar {
+    background: #F5F5F5!important;
+    border: none;
+}
+
+}@media(max-width:767px) {
+    .nav-contact {
+    display: none;
+}
+}@media(max-width:767px) {
+    .navbar-collapse {
+    background: #5C804E;
+    z-index: 9999;
+    width: 100%;
+    position: relative;
+    margin-top: 22px;
+    border-bottom: 1px solid #000;
+}
+}@media(max-width:767px) {
+    .navbar-toggle {
+    margin-top: -44px;
+}
+}@media(max-width:767px) {
+    .logo-banner {
+    display: none;
+}
+}@media(min-width:767px) {
+    .ypg-navbar h2 {
+    display: none;
+}
+}@media(max-width:767px) {
+    .ypg-navbar {
+    height: 70px;
+}
+}@media(max-width:767px) {
+    .ypg-navbar h2 {
+    font-size: 26px;
+}
+}@media(min-width:768px) {
+    .footer-inner {
+    width: 750px!important;
+}
+}@media(max-width:992px) {
+    .footer-inner h2 {
+    margin-top: 50px!important;
+}
+}@media(min-width:992px) {
+    .footer-inner {
+    width: 970px!important;
+}
+}@media(min-width:1200px) {
+    .footer-inner {
+    width: 1170px!important;
+}
+}@media(max-width:992px) {
+    .slogan h1 {
+    font-size: 36px!important;
+}
+}@media(max-width:992px) {
+    .servicefix {
+    margin-top: -40px!important;
+}
+}@media(max-width:992px) {
+    .welcome-msg h3 {
+    font-size: 18px!important;
+    margin-bottom: 20px;
+}
+}@media(max-width:992px) {
+    .page-title {
+    font-size: 23px!important;
+}
+}@media(max-width:767px) {
+    .page-title {
+    font-size: 20px!important;
+}
+}@media(max-width:992px) {
+    .subpage-title>.service-arrows {
+    font-size: 22px!important;
+}
+}@media(max-width:992px) {
+    .subpage-title{
+    font-size: 4em !important;
+}
+}@media(max-width:767px) {
+    .subpage-title{
+    font-size: 3em !important;
+}
+}@media(max-width:992px) {
+    .subpage-title>.service-type {
+    font-size: 4em !important;
+}
+}@media(max-width:992px) {
+    .contact-titles>.accent {
+    font-size: 20px!important;
+}
+}@media(max-width:992px) {
+    .subpage-text h2 {
+    font-size: 18px!important;
+}
+}@media(max-width:992px) {
+    .subpage-image1 h2 {
+    font-size: 18px!important;
+}
+}@media(max-width:992px) {
+    .subpage-image1 {
+    text-align: center!important;
+    margin-left: 0!important;
+    margin-bottom: 65px;
+    margin-top: 40px;
+}
+}@media(max-width:767px) {
+    .navbar-right a {
+    height: 40px!important;
+}
+}@media(max-width:767px) {
+    .title-border-cover {
+    top: 118px!important;
+}
+}@media(max-width:992px) {
+    .right-ul {
+    margin-top: -6px!important;
+}
+}@media(max-width:992px) {
+    .package-inner {
+    position: relative;
+    margin: 0 auto!important;
+}
+}@media(max-width:992px) {
+    .package-btn {
+    bottom: -28px!important;
+    left: 0!important;
+}
+}@media(min-width:1200px) {
+    .package-btn {
+    bottom: -5px!important;
+    left: -12px!important;
+}
+}@media(max-width:992px) {
+    .snow-list {
+    margin-top: 40px!important;
+}
+}
+}@media(max-width:992px) {
+    .award-description {
+    top: 73px!important;
+}
+}@media(max-width:992px) {
+    .no-mobile-image {
+    display: none;
+}
+}@media(max-width:1080px) {
+    .remove-mobile {
+    display: none!important;
+}
+}@media(max-width:1200px) {
+    .contact-page-icons li {
+    font-size: 13px!important;
+}
+}.navbar {
+    border-radius: 0!important;
+    border-bottom: none!important;
+    border-right: none;
+    border-top: none;
+    background: #5C804E;
+    z-index: 3!important;
+    position: relative;
+}
+.container-fluid {
+    z-index: 2!important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #F5F5F5;
+    font-size: 16px;
+}
+.navbar-right {
+    padding-right: 4%}
+.navbar-right a {
+    height: 70px;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+}
+.dropdown-menu {
+    width: 250px;
+    padding: 15px;
+    font-size: 16px;
+}
+.nav-contact {
+    width: 100%;
+    min-height: 40px!important;
+    max-height: 40px!important;
+    background: #F5F5F5;
+    -webkit-box-shadow: 0 8px 17px -8px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 8px 17px -8px rgba(0, 0, 0, .75);
+    box-shadow: 0 8px 17px -8px rgba(0, 0, 0, .75);
+    border: none!important;
+}
+.nav-contact ul {
+    text-align: right;
+    padding-right: 4.2%;
+    margin-top: 3px;
+}
+.nav-contact li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 30px;
+    color: #352E24;
+    font-size: 12px;
+}
+.nav-contact span {
+    margin-right: 5px;
+    color: #352E24;
+    font-size: 17px;
+}
+.nav-facebook {
+    height: 24px;
+    width: 24px;
+    margin-right: -20px;
+    background: url(../images/facebook6.png);
+    position: absolute;
+    top: 8px;
+}
+.nav-facebook:hover {
+    background: url(../images/facebook7.png);
+}
+.nav-googleplus {
+    height: 24px;
+    width: 24px;
+    background: url(../images/googleplus6.png);
+    position: absolute;
+    top: 8px;
+}
+.nav-googleplus:hover {
+    background: url(../images/googleplus7.png);
+}
+.navbar .nav li.dropdown.active>.dropdown-toggle, .navbar .nav li.dropdown.open.active>.dropdown-toggle, .navbar .nav li.dropdown.open>.dropdown-toggle {
+    background-color: #F5F5F5;
+    color: #000;
+}
+@media (max-width:767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #F5F5F5;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #000;
+    background-color: transparent;
+}
+}.dropdown-menu {
+    border: none;
+    background: #F5F5F5;
+    border-bottom-right-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    position: absolute;
+    top: 70px;
+}
+.dropdown-menu>li>a {
+    color: #352E24;
+    padding: 10px;
+    height: 40px;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    text-decoration: none;
+    color: #F5F5F5;
+    background-color: #5C804E;
+}
+.title-green {
+    color: #5C804E;
+}
+.gardener {
+    font-size: 38px;
+    position: absolute;
+    margin-top: -6px;
+    left: 16px;
+}
+.logo-banner {
+    height: 148px;
+    width: 245px;
+    background: #F5F5F5;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    text-align: center;
+    font-family: "Russo One", sans-serif;
+    z-index: 4;
+    transition: .22s ease;
+}
+.logo-banner h1 {
+    font-size: 24px;
+    margin-top: 13px;
+    color: #352E24;
+    transition: .22s ease;
+}
+.logo-banner img {
+    margin-top: 25px;
+}
+.logo-banner a {
+    text-decoration: none;
+    transition: .22s ease;
+}
+.logo-banner a:hover>h1, .logo-banner a:hover>h1 span {
+    color: #5C804E;
+    transition: .22s ease;
+}
+.logo-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 65px 123.5px 0;
+    border-color: #F5F5F5 transparent transparent;
+    line-height: 0;
+    margin-top: -23px;
+    transition: .22s ease;
+
+}
+.ypg-navbar h2 {
+    padding-left: 20px;
+    font-family: "Russo One", sans-serif;
+    text-transform: uppercase;
+}
+.navbar-toggle {
+    background: #5C804E;
+    margin-top: -40px;
+}
+.navbar-toggle:hover {
+    background: #352E24;
+}
+
+}.welcome-bg {
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    padding-top: 20px;
+}
+.welcome-msg {
+    width: 68%!important;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 75px;
+    font-size: 15px;
+    z-index: 3;
+}
+.welcome-msg h3 {
+    margin-bottom: 15px;
+    font-size: 21px;
+}
+.welcome-msg img {
+    position: relative;
+    margin: 0 auto;
+}
+.signature {
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    color: #5C804E;
+    z-index: 2;
+    position: relative;
+}
+.accent-green {
+    color: #3B5E2D;
+    font-weight: 700;
+}
+.maintenance-list ul li {
+    font-size: 15px!important;
+}
+.service-bg {
+    background: #e7e7e7;
+    padding-bottom: 130px;
+    position: relative;
+    z-index: 3;
+}
+.services {
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    width: 80%!important;
+    margin: 0 auto;
+}
+.services h1 {
+    margin-bottom: 70px;
+}
+.title-border-cover {
+    height: 4px;
+    width: 10%;
+    background: #5C804E;
+    position: relative;
+    left: 0;
+    top: 128px;
+    margin: auto;
+    z-index: 1;
+}
+
+.page-title {
+    padding-top: 60px;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.accent {
+    font-weight: 700;
+    color: #5C804E;
+}
+
+.slogan {
+    background-image: url(../images/slogan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 275px;
+    width: 100%;
+    z-index: 5 !important;
+    position: relative;
+    text-align: center;
+    margin-bottom: -350px;
+}
+.slogan h1 {
+    line-height: 235px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #CAB79B;
+}
+.testimonials {
+    background: #F5F5F5;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    position: relative;
+    margin-top: 345px;
+}
+.test-inner p {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 30px auto 0;
+    font-size: 18px;
+}
+.test-inner blockquote cite {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Lato, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    display: inline-block;
+    padding-bottom: 40px;
+    color: #5C804E;
+}
+.test-inner blockquote {
+    border: none;
+}
+.quote {
+    position: absolute;
+    font-size: 280px;
+    left: 12%;
+    top: 80px;
+    color: rgba(92, 128, 78, .41);
+    font-family: Helvetica;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    background: #1F1608;
+}
+.footer-inner {
+    padding: 50px 15px;
+    margin: 0 auto;
+    color: #CAB79B;
+}
+.footer-spacer {
+    margin-right: -50px;
+}
+@media(max-width:992px) {
+    .footer-spacer {
+    margin-right: 0;
+}
+}.footer-right {
+    margin-left: 50px;
+}
+@media(max-width:992px) {
+    .footer-right {
+    margin-left: 0;
+}
+}.footer h2 {
+    color: #F5F5F5;
+    font-family: Lato, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.footer a {
+    color: #CAB79B;
+}
+.footer a:hover {
+    color: #F5F5F5;
+}
+.heading-border {
+    width: 45px;
+    height: 3px;
+    background: #5C804E;
+    margin-bottom: 15px;
+    margin-top: -3px;
+}
+.footer-inner ul {
+    list-style: none;
+    text-align: left;
+    margin-left: -40px;
+}
+.footer-inner li {
+    margin-bottom: 2px;
+}
+.footer-inner span {
+    margin-right: 10px;
+}
+.footer .row {
+    position: relative;
+    margin: 0 auto;
+}
+.footer2 {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 13px;
+    margin-bottom: -20px;
+    background: #120C04;
+}
+.footer2 p {
+    margin-bottom: 3px;
+    color: #CAB79B;
+}
+.footer2 a {
+    color: #CAB79B;
+}
+.footer2 a:hover {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.bx-wrapper .testimonials-thumbnail {
+    margin: 0 0 15px;
+}
+.bx-wrapper .testimonials-title {
+    text-align: center;
+    margin: 25px 15px 3px;
+    font-size: 24px;
+    line-height: 1;
+}
+.bx-wrapper .testimonials-carousel-thumbnail {
+    max-width: 35%;
+    float: left;
+    margin-right: 20px;
+}
+.bx-wrapper .testimonials-carousel-thumbnail img {
+    display: block;
+    margin-right: 20px;
+    width: 100px;
+}
+.bx-wrapper .testimonials-carousel-context {
+    overflow: hidden;
+    margin-bottom: -200px;
+}
+.bx-wrapper .testimonials-name {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 400;
+}
+.bx-wrapper span {
+    font-size: 11px;
+    margin-left: 10px;
+    color: #aaa;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.bx-wrapper {
+    position: relative;
+    margin: 30px auto;
+    padding: 0;
+    width: 100%}
+.bx-wrapper .slide {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.bx-wrapper .bx-viewport {
+    padding: 10px;
+    margin-left: 0;
+    z-index: 1;
+    width: 100%}
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+    position: absolute;
+    display: none;
+    bottom: -30px;
+    width: 100%}
+.bx-wrapper .bx-loading {
+    min-height: 50px;
+    background: url(images/bx_loader.gif) center center no-repeat #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-weight: 700;
+    color: #666;
+    padding-top: 20px;
+}
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item, .bx-wrapper .bx-pager .bx-pager-item {
+    display: inline-block;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: #000;
+}
+.bx-wrapper .bx-next {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    border-left: 1px solid #ddd;
+    height: 30px;
+    cursor: pointer;
+    background: url(../images/next.png) no-repeat #ED3131;
+}
+.bx-wrapper .bx-prev {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    border-right: 1px solid #ddd;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../images/prev.png) no-repeat #ED3131;
+}
+.bx-wrapper .bx-controls-direction a {
+    position: relative;
+    margin: 0 auto 0 30px;
+    top: 0;
+    outline: 0;
+    width: 30px;
+    height: 30px;
+    padding: 10px 50px;
+    text-indent: -9999px;
+    background: 0 0;
+    border: 3px solid #5C804E;
+    color: #241A0B;
+    z-index: 9999;
+    font: Lato, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.bx-wrapper .bx-controls-direction a:hover {
+    background: #5C804E;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+.subpage-header {
+    background-image: url(../images/slider03.jpg);
+    background-repeat: no-repeat;
+    background-position: top top;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 40vh !important;
+    width: 100%;
+    margin-top: -20px;
+    text-align: center;
+    position: relative !important;
+}
+.subpage-wrap {
+    position: relative;
+    background: #fff;
+    z-index: 2;
+    top: 0;
+    margin-top: 0;
+    padding-bottom: 55px;
+    padding-top: 30px;
+}
+.about-header {
+    background-image: url(../images/about.jpg)!important;
+    background-position: center!important;
+    background-size: cover;
+    position: relative !important;
+    height: 40vh !important;}
+.concrete-header {
+    background-image: url(../images/concrete-header.jpg)!important;
+    background-position: center!important;
+
+    background-size: cover;
+position: relative !important;}
+.concrete-list ul li {
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+.hardscape-header {
+    background-image: url(../images/hardscape05a.jpg)!important;
+    background-position: center!important;
+
+    background-size: cover;
+position: relative !important;
+    height: 40vh !important;}
+.landscape-header {
+    background-image: url(../images/landscape/landscaping01.jpg)!important;
+    background-position: center!important;
+
+    background-size: cover;
+position: relative !important;
+    height: 40vh !important;}
+.landscape-header2 {
+    background: url(../images/portfolio-landscape-header.jpg) top top no-repeat fixed;
+    background-size: 150%;
+    height: 375px;
+    width: 100%;
+    margin-top: -20px;
+    text-align: center;
+    position: relative;
+}
+.landscape-design-header {
+    background-image: url(../images/landscape-design-header.jpg)!important;
+    background-position: center!important;
+
+    background-size: cover;
+position: relative !important;
+    height: 40vh !important;}
+.lawn-header {
+    background-image: url(../images/lawn/lawn01.jpg)!important;
+    background-position: center!important;
+    background-size: cover;
+position: relative !important;
+    height: 40vh !important;}
+.maintenance-header {
+    background-image: url(../images/maintenance.jpg)!important;
+    background-position: center!important;
+    background-size: cover;
+position: relative !important;
+    height: 40vh !important;}
+.delivery-header {
+    background-image: url(../images/delivery.jpg)!important;
+    background-position: center!important;
+    background-size: cover;
+position: relative !important;
+    height: 40vh !important;}
+.snow-header {
+    background-image: url(../portfolio/images/snow/snow_header.jpg)!important;
+    background-position: center!important;
+    background-size: cover;}
+.contact-header {
+    background-image: url(../images/contact-header.jpg)!important;
+    background-position: center!important;
+    background-size: cover;
+
+position: relative !important;
+    height: 40vh !important;}
+.portfolio-header {
+    background-image: url(../images/portfolio-header.jpg)!important;
+    background-position: center!important;
+    background-size: cover;
+position: relative !important;
+    height: 40vh !important;}
+.tree-header {
+    background-image: url(../portfolio/images/tree_service/tree_service_header.jpg)!important;
+    background-position: center!important;
+    background-size: cover;
+position: relative !important;
+    height: 40vh !important;}
+.featured-header {
+    background-image: url(../images/featured-header.jpg)!important;
+    background-position: center!important;
+    background-size: cover;
+position: relative !important;
+    height: 40vh !important;}
+
+    .subpage-title-fix {
+        padding-top: 5%;
+    }
+.subpage-title {
+    text-align: left !important;
+    color: #F5F5F5 !important;
+    font-family: 'Norican', Helvetica, Sans-serif;
+    font-size: 5em;
+    text-transform: initial;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 1)
+}
+
+
+
+.subpage-title>.service-arrows {
+    font-size: 28px;
+    letter-spacing: -4px;
+    color: #241A0B;
+}
+.subpage-title>.service-type {
+    font-size: 28px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    color: #241A0B;
+}
+.subpage-underline {
+    height: 4px;
+    width: 10%;
+    background: #5C804E;
+    position: relative;
+    z-index: 1;
+}
+.contact-header-fix h2 {
+    margin-left: 0;
+    font-size: 30px!important;
+}
+.contact-fix {
+    margin-left: -20px!important;
+}
+.subpage-heading-border {
+    width: 45px;
+    height: 3px;
+    background: #5C804E;
+    margin-bottom: 20px;
+    margin-top: -3px;
+}
+.subpage-body {
+    position: relative;
+    margin: 0 auto;
+    padding: 35px;
+}
+.subpage-text h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5C804E;
+    letter-spacing: 2px;
+    font-size: 21px;
+}
+.subpage-text p {
+    font-size: 16px;
+}
+.subpage-text ul {
+    margin-left: -20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.snow-list {
+    margin-top: -20px;
+}
+.right-ul {
+    margin-top: 73px;
+}
+.subpage-image1 {
+    text-align: right;
+    margin-left: 75px;
+}
+
+.subpage-image1 h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5C804E;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.accent-two, .subpage-text a {
+    color: #5C804E;
+}
+.subpage-footer {
+    margin-top: 150px;
+}
+.subpage-footer ul {
+    margin-left: -40px;
+}
+.subpage-footer-inner {
+    margin-top: -20px;
+}
+.package-outer {
+    padding: 20px;
+    margin-bottom: 55px;
+}
+.package-inner {
+    padding: 20px 20px 50px;
+    max-width: 325px;
+    min-height: 440px;
+    background: rgba(250, 250, 250, .85);
+    border: 2px solid #446c35;
+}
+.row-one {
+    min-height: 300px!important;
+}
+.row-three {
+    min-height: 355px!important;
+}
+.package-inner h2, .package-inner p {
+    text-align: center;
+}
+.package-inner p {
+    border-bottom: 1px solid #999;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #222;
+}
+.noborder {
+    border: none!important;
+}
+.packages-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 60px 92px 0;
+    border-color: #fff transparent transparent;
+    position: relative;
+    margin: 0 auto -60px;
+    z-index: 3;
+}
+.packages-bg {
+    width: 100%;
+    position: relative;
+    padding-bottom: 100px;
+    padding-top: 130px;
+    margin-bottom: -150px;
+    background-image: url(../images/packages-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top top;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.package-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    min-width: 200px;
+    max-width: 200px;
+    line-height: 50px;
+    background: #5C804E;
+}
+.package-btn a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #F5F5F5;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid #5C804E;
+    transition: .25s ease;
+}
+.package-btn a:hover {
+    text-decoration: none;
+    background: #F5F5F5;
+    border: 3px solid #5C804E;
+    font-weight: 700;
+    color: #5C804E;
+    line-height: 48px;
+    transition: .25s ease;
+}
+.port-main-fix {
+    position: relative;
+    top: -40px;
+}
+.port-main-fix2 {
+    position: relative;
+    top: -80px;
+}
+.port-main-fix3 {
+    position: relative;
+    top: -120px;
+}
+.portfolio-zoom {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 185px;
+    max-height: 225px;
+    position: relative;
+    margin: 0 auto 45px 0;
+    text-align: center;
+    line-height: 185px;
+}
+.portfolio-zoom1 {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+    position: relative;
+    margin: 0 auto 45px 0;
+    text-align: center;
+}
+.portfolio-box a>.portfolio-zoom1>.servicebox-hover span {
+    position: relative;
+    top: 140px!important;
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+.portfolio-box a>.portfolio-zoom1>.servicebox-hover {
+    background: rgba(92, 128, 78, 0);
+    opacity: 0;
+    height: 250px;
+    -webkit-transition: .4s all;
+    transition: .4s all;
+}
+.portfolio-box a:hover>.portfolio-zoom1 {
+    background-size: 140%;
+    height: 250px;
+    background-position: center;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.portfolio-box a:hover>.hardscape-main, .portfolio-box a:hover>.landscape-design-main {
+    background-size: 180%;
+    height: 250px;
+    background-position: center;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.portfolio-box a:hover>.lawn-main {
+    background-size: 140%;
+    height: 250px;
+    background-position: center;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.portfolio-box a:hover>.delivery-main {
+    background-size: 175%;
+    height: 250px;
+    background-position: center;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.portfolio-box a:hover>.tree-main {
+    background-size: 120%;
+    height: 250px;
+    background-position: center;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.portfolio-box a:hover>.portfolio-zoom1>.servicebox-hover {
+    background: rgba(92, 128, 78, .62);
+    opacity: 1;
+    height: 250px;
+    margin-bottom: 30px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.portfolio-box>.servicebox-hover span {
+    position: relative;
+    top: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-size: 24px;
+    letter-spacing: 12px;
+    color: #F5F5F5;
+}
+.portfolio-box a:hover>.portfolio-zoom1>.servicebox-hover span {
+    margin-top: -350px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-size: 44px!important;
+    letter-spacing: 0;
+}
+.port-view-more {
+    position: relative;
+    height: 60px;
+    min-width: 100%;
+    max-width: 100%;
+    background: #5C804E;
+    top: -38px;
+}
+.port-view-more a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 55px;
+    color: #F5F5F5;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #5C804E;
+    letter-spacing: .04em;
+    font-size: 16px;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+.port-view-more a:hover {
+    text-decoration: none;
+    background: #F5F5F5;
+    border: 2px solid #5C804E;
+    font-weight: 700;
+    color: #5C804E;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+.portfolio-box {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+}
+.featured-prop-main {
+    background: url(../images/featured/featured21-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-main {
+    background: url(../images/landscape/landscape-port10.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.concrete-main {
+    background: url(../images/concrete/concrete01a.jpg) center;
+    background-size: 126%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-main {
+    background: url(../images/hardscape05a.jpg) center;
+    background-size: 158%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-main {
+    background: url(../images/landscape_design/design01.jpg) center;
+    background-size: 158%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-main {
+    background: url(../images/lawn/lawn02.jpg) center;
+    background-size: 118%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.delivery-main {
+    background: url(../images/delivery.jpg) center;
+    background-size: 152%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-main {
+    background: url(../images/tree_firewood/tree-climb05.jpg) center;
+    background-size: 102%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape02:hover, .port-landscape03:hover, .port-landscape04:hover, .port-landscape05:hover, .port-landscape06:hover, .port-landscape07:hover, .port-landscape08:hover, .port-landscape09:hover, .port-landscape10:hover, .port-landscape11:hover, .port-landscape12:hover, .port-landscape13:hover, .port-landscape15:hover, .port-landscape21:hover, .port-landscape24:hover, .port-landscape25:hover, .port-landscape26:hover, .port-landscape27:hover, .port-landscape28:hover, .port-landscape29:hover, .port-landscape30:hover, .port-landscape31:hover, .port-landscape32:hover, .port-landscape33:hover, .port-landscape34:hover, .port-landscape35:hover, .port-landscape36:hover, .port-landscape37:hover {
+    background-size: 202%!important;
+}
+.port-landscape01 {
+    background: url(../images/landscape/landscape-port01.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape02 {
+    background: url(../images/landscape/landscape-port37.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape03 {
+    background: url(../images/landscape/landscape-port38.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape04 {
+    background: url(../images/landscape/landscape-port39.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape05 {
+    background: url(../images/landscape/landscape-port40.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape06 {
+    background: url(../images/landscape/landscape-port41.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape07 {
+    background: url(../images/landscape/landscape-port42.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape08 {
+    background: url(../images/landscape/landscape-port30.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape09 {
+    background: url(../images/landscape/landscape-port31.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape10 {
+    background: url(../images/landscape/landscape-port32.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape11 {
+    background: url(../images/landscape/landscape-port34.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape12 {
+    background: url(../images/landscape/landscape-port35.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape13 {
+    background: url(../images/landscape/landscape-port43.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape14 {
+    background: url(../images/landscape/landscape-port14.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape15 {
+    background: url(../images/landscape/landscape-port44.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape16 {
+    background: url(../images/landscape/landscape-port16.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape17 {
+    background: url(../images/landscape/landscape-port08.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape18 {
+    background: url(../images/landscape/landscape-port09.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape19 {
+    background: url(../images/landscape/landscape-port10.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape20 {
+    background: url(../images/landscape/landscape-port11.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape21 {
+    background: url(../images/landscape/landscape-port45.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape22 {
+    background: url(../images/landscape/landscape-port20.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape23 {
+    background: url(../images/landscape/landscape-port21.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape24 {
+    background: url(../images/landscape/landscape-port46.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape25 {
+    background: url(../images/landscape/landscape-port23.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape26 {
+    background: url(../images/landscape/landscape-port24.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape27 {
+    background: url(../images/landscape/landscape-port25.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape28 {
+    background: url(../images/landscape/landscape-port26.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape29 {
+    background: url(../images/landscape/landscape-port27.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape30 {
+    background: url(../images/landscape/landscape-port28.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape31 {
+    background: url(../images/landscape/landscape-port29.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape32 {
+    background: url(../images/landscape/landscape-port36.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape33 {
+    background: url(../images/landscape/landscape-port33.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape34 {
+    background: url(../images/landscape/landscape-port01.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape35 {
+    background: url(../images/landscape/landscape-port02.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape36 {
+    background: url(../images/landscape/landscape-port03.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.port-landscape37 {
+    background: url(../images/landscape/landscape-port04.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box1 {
+    background: url(../images/featured/featured01-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box2 {
+    background: url(../images/featured/featured02-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box3 {
+    background: url(../images/featured/featured03-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box4 {
+    background: url(../images/featured/featured04-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box5 {
+    background: url(../images/featured/featured05-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box6 {
+    background: url(../images/featured/featured06-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box7 {
+    background: url(../images/featured/featured07-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box8 {
+    background: url(../images/featured/featured08-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box9 {
+    background: url(../images/featured/featured09-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box10 {
+    background: url(../images/featured/featured10-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box11 {
+    background: url(../images/featured/featured11-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box12 {
+    background: url(../images/featured/featured12-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box13 {
+    background: url(../images/featured/featured13-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box14 {
+    background: url(../images/featured/featured14-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box15 {
+    background: url(../images/featured/featured15-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box16 {
+    background: url(../images/featured/featured16-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box17 {
+    background: url(../images/featured/featured17-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box18 {
+    background: url(../images/featured/featured18-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box19 {
+    background: url(../images/featured/featured19-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box20 {
+    background: url(../images/featured/featured20-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box21 {
+    background: url(../images/featured/featured21-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.fp-box22 {
+    background: url(../images/featured/featured22-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-box1 {
+    background: url(../images/landscape20-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-box2 {
+    background: url(../images/landscape30-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-box3 {
+    background: url(../images/landscape29-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-box4 {
+    background: url(../images/landscape27-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port14:hover, .hardscape-port15:hover, .hardscape-port16:hover, .hardscape-port17:hover, .hardscape-port18:hover, .hardscape-port19:hover, .hardscape-port20:hover, .hardscape-port21:hover, .hardscape-port22:hover, .hardscape-port23:hover, .hardscape-port24:hover, .hardscape-port25:hover, .hardscape-port26:hover, .hardscape-port27:hover, .hardscape-port28:hover, .hardscape-port29:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port01 {
+    background: url(../images/hardscape09-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port02 {
+    background: url(../images/hardscape11-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port03 {
+    background: url(../images/hardscape15-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port04 {
+    background: url(../images/hardscape16-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port05 {
+    background: url(../images/hardscape05.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port06 {
+    background: url(../images/hardscape01.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port07 {
+    background: url(../images/hardscape02.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port08 {
+    background: url(../images/hardscape03.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port09 {
+    background: url(../images/hardscape06-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port10 {
+    background: url(../images/hardscape07-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port11 {
+    background: url(../images/hardscape03-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port12 {
+    background: url(../images/hardscape05-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port13 {
+    background: url(../images/hardscape02-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port13a {
+    background: url(../images/hardscape/hardscape01.jpg) center;
+    background-size: 162%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port13a:hover {
+    background-size: 185%!important;
+}
+.hardscape-port13b {
+    background: url(../images/hardscape/hardscape02.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port14 {
+    background: url(../images/concrete/concrete02.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port15 {
+    background: url(../images/concrete/concrete21.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port16 {
+    background: url(../images/concrete/concrete04.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port17 {
+    background: url(../images/concrete/concrete05.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port18 {
+    background: url(../images/concrete/concrete06.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port19 {
+    background: url(../images/concrete/concrete20.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port20 {
+    background: url(../images/concrete/concrete08.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port21 {
+    background: url(../images/concrete/concrete09.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port22 {
+    background: url(../images/concrete/concrete10.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port23 {
+    background: url(../images/concrete/concrete11.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port24 {
+    background: url(../images/concrete/concrete12.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port25 {
+    background: url(../images/concrete/concrete13.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port26 {
+    background: url(../images/concrete/concrete18.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port27 {
+    background: url(../images/concrete/concrete15.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port28 {
+    background: url(../images/concrete/concrete16.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.hardscape-port29 {
+    background: url(../images/concrete/concrete19.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+/***************************************
+******* Portfolio - Tree Service *******
+****************************************/
+
+.return-port a{
+    float: right;
+    margin-top: 15px;
+    color: #5C804E;
+}
+
+.tree-thumb01:hover, .tree-thumb02:hover, .tree-thumb03:hover, .tree-thumb04:hover, .tree-thumb05:hover,.tree-thumb06:hover, .tree-thumb07:hover, .tree-thumb08:hover,
+.tree-thumb09:hover, .tree-thumb10:hover, .tree-thumb11:hover, .tree-thumb12:hover, .tree-thumb13:hover,.tree-thumb14:hover, .tree-thumb15:hover, .tree-thumb16:hover,
+.tree-thumb17:hover, .tree-thumb18:hover, .tree-thumb19:hover, .tree-thumb20:hover, .tree-thumb21:hover,.tree-thumb22:hover, .tree-thumb23:hover, .tree-thumb24:hover,
+.tree-thumb25:hover, .tree-thumb26:hover, .tree-thumb27:hover, .tree-thumb28:hover, .tree-thumb29:hover,.tree-thumb30:hover, .tree-thumb31:hover, .tree-thumb32:hover,
+.tree-thumb33:hover, .tree-thumb34:hover, .tree-thumb35:hover, .tree-thumb36:hover, .tree-thumb37:hover,.tree-thumb38:hover, .tree-thumb39:hover, .tree-thumb40:hover{
+    background-size: 185%!important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-thumb01, .tree-thumb02, .tree-thumb03, .tree-thumb04, .tree-thumb05,.tree-thumb06, .tree-thumb07, .tree-thumb08,
+.tree-thumb09, .tree-thumb10, .tree-thumb11, .tree-thumb12, .tree-thumb13,.tree-thumb14, .tree-thumb15, .tree-thumb16,
+.tree-thumb17, .tree-thumb18, .tree-thumb19, .tree-thumb20, .tree-thumb21,.tree-thumb22, .tree-thumb23, .tree-thumb24,
+.tree-thumb25, .tree-thumb26, .tree-thumb27, .tree-thumb28, .tree-thumb29,.tree-thumb30, .tree-thumb31, .tree-thumb32,
+.tree-thumb33, .tree-thumb34, .tree-thumb35, .tree-thumb36, .tree-thumb37,.tree-thumb38, .tree-thumb39, .tree-thumb40{
+    background-size: 168% !important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+.tree-thumb01 {background: url(../portfolio/images/tree_service/tree_service_01_thumb.jpg) center;}
+.tree-thumb02 {background: url(../portfolio/images/tree_service/tree_service_02_thumb.jpg) center;}
+.tree-thumb03 {background: url(../portfolio/images/tree_service/tree_service_03_thumb.jpg) center;}
+.tree-thumb04 {background: url(../portfolio/images/tree_service/tree_service_04_thumb.jpg) center;}
+.tree-thumb05 {background: url(../portfolio/images/tree_service/tree_service_05_thumb.jpg) center;}
+.tree-thumb06 {background: url(../portfolio/images/tree_service/tree_service_06_thumb.jpg) center;}
+.tree-thumb07 {background: url(../portfolio/images/tree_service/tree_service_07_thumb.jpg) center;}
+.tree-thumb08 {background: url(../portfolio/images/tree_service/tree_service_08_thumb.jpg) center;}
+.tree-thumb09 {background: url(../portfolio/images/tree_service/tree_service_09_thumb.jpg) center;}
+.tree-thumb10 {background: url(../portfolio/images/tree_service/tree_service_10_thumb.jpg) center;}
+.tree-thumb11 {background: url(../portfolio/images/tree_service/tree_service_11_thumb.jpg) center;}
+.tree-thumb12 {background: url(../portfolio/images/tree_service/tree_service_12_thumb.jpg) center;}
+.tree-thumb13 {background: url(../portfolio/images/tree_service/tree_service_13_thumb.jpg) center;}
+.tree-thumb14 {background: url(../portfolio/images/tree_service/tree_service_14_thumb.jpg) center;}
+.tree-thumb15 {background: url(../portfolio/images/tree_service/tree_service_15_thumb.jpg) center;}
+.tree-thumb16 {background: url(../portfolio/images/tree_service/tree_service_16_thumb.jpg) center;}
+.tree-thumb17 {background: url(../portfolio/images/tree_service/tree_service_17_thumb.jpg) center;}
+.tree-thumb18 {background: url(../portfolio/images/tree_service/tree_service_18_thumb.jpg) center;}
+.tree-thumb19 {background: url(../portfolio/images/tree_service/tree_service_19_thumb.jpg) center;}
+.tree-thumb20 {background: url(../portfolio/images/tree_service/tree_service_20_thumb.jpg) center;}
+.tree-thumb21 {background: url(../portfolio/images/tree_service/tree_service_21_thumb.jpg) center;}
+.tree-thumb22 {background: url(../portfolio/images/tree_service/tree_service_22_thumb.jpg) center;}
+.tree-thumb23 {background: url(../portfolio/images/tree_service/tree_service_23_thumb.jpg) center;}
+.tree-thumb24 {background: url(../portfolio/images/tree_service/tree_service_24_thumb.jpg) center;}
+.tree-thumb25 {background: url(../portfolio/images/tree_service/tree_service_25_thumb.jpg) center;}
+.tree-thumb26 {background: url(../portfolio/images/tree_service/tree_service_26_thumb.jpg) center;}
+.tree-thumb27 {background: url(../portfolio/images/tree_service/tree_service_27_thumb.jpg) center;}
+.tree-thumb28 {background: url(../portfolio/images/tree_service/tree_service_28_thumb.jpg) center;}
+.tree-thumb29 {background: url(../portfolio/images/tree_service/tree_service_29_thumb.jpg) center;}
+.tree-thumb30 {background: url(../portfolio/images/tree_service/tree_service_30_thumb.jpg) center;}
+.tree-thumb31 {background: url(../portfolio/images/tree_service/tree_service_31_thumb.jpg) center;}
+.tree-thumb32 {background: url(../portfolio/images/tree_service/tree_service_32_thumb.jpg) center;}
+.tree-thumb33 {background: url(../portfolio/images/tree_service/tree_service_33_thumb.jpg) center;}
+.tree-thumb34 {background: url(../portfolio/images/tree_service/tree_service_34_thumb.jpg) center;}
+.tree-thumb35 {background: url(../portfolio/images/tree_service/tree_service_35_thumb.jpg) center;}
+.tree-thumb36 {background: url(../portfolio/images/tree_service/tree_service_36_thumb.jpg) center;}
+.tree-thumb37 {background: url(../portfolio/images/tree_service/tree_service_37_thumb.jpg) center;}
+.tree-thumb38 {background: url(../portfolio/images/tree_service/tree_service_38_thumb.jpg) center;}
+.tree-thumb39 {background: url(../portfolio/images/tree_service/tree_service_39_thumb.jpg) center;}
+.tree-thumb40 {background: url(../portfolio/images/tree_service/tree_service_40_thumb.jpg) center;}
+
+
+
+.tree-port02 {
+    background: url(../images/tree_firewood/tree02.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port03 {
+    background: url(../images/tree_firewood/tree03.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port04 {
+    background: url(../images/tree_firewood/tree04.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port05 {
+    background: url(../images/tree_firewood/tree05.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port06 {
+    background: url(../images/tree_firewood/tree06.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port07 {
+    background: url(../images/tree_firewood/tree07.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port08 {
+    background: url(../images/tree_firewood/tree08.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port09 {
+    background: url(../images/tree10-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port10 {
+    background: url(../images/tree_firewood/tree09.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port11 {
+    background: url(../images/tree_firewood/tree-climb01.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port12 {
+    background: url(../images/tree_firewood/tree-climb02.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port13 {
+    background: url(../images/tree_firewood/tree-climb03.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port14 {
+    background: url(../images/tree_firewood/tree-climb04.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port15 {
+    background: url(../images/tree_firewood/firewood01.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port16 {
+    background: url(../images/tree_firewood/firewood02.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port17 {
+    background: url(../images/tree_firewood/firewood03.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port18 {
+    background: url(../images/tree_firewood/firewood04.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port19 {
+    background: url(../images/tree_firewood/firewood05.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port20 {
+    background: url(../images/tree_firewood/firewood06.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port21 {
+    background: url(../images/tree_firewood/firewood07.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port22 {
+    background: url(../images/tree_firewood/tree10.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port23 {
+    background: url(../images/tree_firewood/tree11.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port24 {
+    background: url(../images/tree_firewood/tree12.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port25 {
+    background: url(../images/tree_firewood/tree13.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port26 {
+    background: url(../images/tree_firewood/tree15.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port27 {
+    background: url(../images/tree_firewood/tree16.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-port28 {
+    background: url(../images/tree_firewood/tree17.jpg) center;
+    background-size: 172%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box10:hover, .landscape-design-box11:hover, .landscape-design-box12:hover, .landscape-design-box14:hover, .landscape-design-box15:hover, .landscape-design-box16:hover, .landscape-design-box17:hover, .landscape-design-box18:hover, .landscape-design-box19:hover, .landscape-design-box1:hover, .landscape-design-box20:hover, .landscape-design-box21:hover, .landscape-design-box22:hover, .landscape-design-box23:hover, .landscape-design-box24:hover, .landscape-design-box2:hover, .landscape-design-box3:hover, .landscape-design-box4:hover, .landscape-design-box5:hover, .landscape-design-box6:hover, .landscape-design-box7:hover, .landscape-design-box8:hover, .landscape-design-box9:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box1 {
+    background: url(../images/landscape_design/landscape_design15.jpg) center;
+    background-size: 182%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box2 {
+    background: url(../images/landscape_design/landscape_design02.jpg) center;
+    background-size: 182%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box3 {
+    background: url(../images/landscape_design/landscape_design03.jpg) center;
+    background-size: 182%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box4 {
+    background: url(../images/landscape_design/landscape_design04.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box5 {
+    background: url(../images/landscape_design/landscape_design05.jpg) center;
+    background-size: 182%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box6 {
+    background: url(../images/landscape_design/landscape_design06.jpg) center;
+    background-size: 182%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box7 {
+    background: url(../images/landscape_design/landscape_design07.jpg) center;
+    background-size: 182%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box8 {
+    background: url(../images/landscape_design/landscape_design08.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box9 {
+    background: url(../images/landscape_design/landscape_design09.jpg) center;
+    background-size: 182%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box10 {
+    background: url(../images/landscape_design/landscape_design10.jpg) center;
+    background-size: 182%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box11 {
+    background: url(../images/landscape_design/landscape_design11.jpg) center;
+    background-size: 182%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box12 {
+    background: url(../images/landscape_design/landscape_design12.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box13 {
+    background: url(../images/landscape_design/landscape_design13.jpg) top center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box13:hover {
+    background-size: 235%!important;
+    background-position: bottom center;
+}
+.landscape-design-box14 {
+    background: url(../images/design05-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box15 {
+    background: url(../images/design07-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box16 {
+    background: url(../images/design10-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box17 {
+    background: url(../images/landscape_design/landscape_design14.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box18 {
+    background: url(../images/landscape_design/design09-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box19 {
+    background: url(../images/landscape_design/design01-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box20 {
+    background: url(../images/landscape_design/design02-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box21 {
+    background: url(../images/landscape_design/design03-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box22 {
+    background: url(../images/landscape_design/design04-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box23 {
+    background: url(../images/landscape_design/design06-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.landscape-design-box24 {
+    background: url(../images/landscape_design/design08-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port01:hover, .lawn-port02:hover, .lawn-port03:hover, .lawn-port04:hover, .lawn-port05:hover, .lawn-port06:hover, .lawn-port07:hover, .lawn-port08:hover, .lawn-port09:hover, .lawn-port10:hover, .lawn-port11:hover, .lawn-port12:hover, .lawn-port13:hover, .lawn-port14:hover, .lawn-port15:hover, .lawn-port16:hover, .lawn-port17:hover, .lawn-port18:hover, .lawn-port19:hover, .lawn-port20:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port01 {
+    background: url(../images/lawn/lawn03.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port02 {
+    background: url(../images/lawn/lawn04.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port03 {
+    background: url(../images/lawn/lawn05.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port04 {
+    background: url(../images/lawn/lawn06.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port05 {
+    background: url(../images/lawn/lawn07.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port06 {
+    background: url(../images/lawn/lawn08.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port07 {
+    background: url(../images/lawn/lawn09.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port08 {
+    background: url(../images/lawn/lawn10.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port09 {
+    background: url(../images/lawn/lawn11.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port10 {
+    background: url(../images/lawn/lawn12.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port11 {
+    background: url(../images/lawn/lawn13.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port12 {
+    background: url(../images/lawn/lawn14.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port13 {
+    background: url(../images/lawn/lawn15.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port14 {
+    background: url(../images/lawn/lawn16.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port15 {
+    background: url(../images/lawn/lawn17.jpg) center;
+    background-size: 275%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port16 {
+    background: url(../images/landscape34-c.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port17 {
+    background: url(../images/lawn/lawn18.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port18 {
+    background: url(../images/lawn/lawn19.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port19 {
+    background: url(../images/lawn/lawn20.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.lawn-port20 {
+    background: url(../images/lawn/lawn21.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port01 {
+    background: url(../images/material/material01.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port01:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port02 {
+    background: url(../images/material/material02.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port02:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port03 {
+    background: url(../images/material/material03.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port03:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port04 {
+    background: url(../images/material/material04.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port04:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port05 {
+    background: url(../images/material/material05.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port05:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port06 {
+    background: url(../images/material/material06.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port06:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port07 {
+    background: url(../images/material/material07.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port07:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port08 {
+    background: url(../images/material/material08.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port08:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port09 {
+    background: url(../images/material/material09.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port09:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port10 {
+    background: url(../images/material/material10.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port10:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port11 {
+    background: url(../images/material/material11.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port11:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port12 {
+    background: url(../images/material/material12.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port12:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port13 {
+    background: url(../images/material/material13.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port13:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port14 {
+    background: url(../images/material/material14.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port14:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port15 {
+    background: url(../images/material/material15.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port15:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port16 {
+    background: url(../images/material/material16.jpg) center;
+    background-size: 185%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.material-port16:hover {
+    background-size: 205%!important;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.servicebox a:hover>.portfolio-zoom {
+    background-size: 140%;
+    background-position: center;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.servicebox a:hover>.portfolio-zoom>.servicebox-hover {
+    background: rgba(92, 128, 78, .62);
+    opacity: 1;
+    margin-bottom: 30px;
+    transition: .3s ease;
+}
+
+.servicebox-hover span {
+    color: #F5F5F5;
+}
+
+.servicebox a > .portfolio-zoom > .servicebox-hover span{
+    opacity: 0;
+    transition: .3s ease;
+}
+.portfolio-zoom>.servicebox-hover span {
+    position: relative;
+    top: 15px;
+    transition: .3s ease;
+    font-size: 24px;
+    letter-spacing: 12px;
+    color: #F5F5F5;
+}
+.servicebox a:hover>.portfolio-zoom>.servicebox-hover span {
+    margin-top: 50px;
+    transition: .3s ease;
+    font-size: 44px!important;
+    letter-spacing: 0;
+    opacity: 1;
+}
+.contact-email, .contact-nameplate, .contact-phone {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #5C804E;
+    padding-left: 10px;
+    line-height: 45px;
+    margin-bottom: 13px;
+    color: #F5F5F5;
+}
+.contact-hear {
+    position: relative;
+    width: 100%;
+    height: 182px;
+    background: #5C804E;
+    padding-left: 10px;
+    line-height: 45px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    color: #F5F5F5;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+.contact-hear p {
+    line-height: 24px;
+}
+.contact-email input, .contact-hear select, .contact-nameplate input, .contact-phone input {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    height: 46px;
+    width: 70%;
+    border: none!important;
+    background: #F5F5F5;
+    padding-left: 10px;
+    color: #000;
+}
+.uneditable-input:focus, input[type=time]:focus, input[type=week]:focus, input[type=number]:focus, input[type=email]:focus, input[type=url]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=color]:focus, input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=date]:focus, input[type=month]:focus, textarea:focus {
+    border-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .075) inset, 0 0 8px rgba(0, 0, 0, .4);
+    outline: 0;
+}
+.contact-job {
+    position: relative;
+    width: 100%;
+    height: 204px;
+    background: #5C804E;
+    padding-left: 10px;
+    line-height: 45px;
+    color: #F5F5F5;
+}
+
+.workXP {
+    height: 164px !important;
+}
+
+.contact-certs {
+    height: 154px !important;
+}
+.checkbox-left {
+    position: absolute;
+    width: 35%;
+    left: 29.8%;
+    top: 2px;
+    padding-left: 10px;
+    background: #F5F5F5;
+    line-height: 40px;
+}
+.checkbox-right {
+    position: absolute;
+    width: 35%;
+    right: 2px;
+    top: 2px;
+    padding-left: 10px;
+    background: #F5F5F5;
+    line-height: 40px;
+}
+.checkbox-hear {
+    width: 70%;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    padding-left: 10px;
+    background: #F5F5F5;
+    line-height: 28px;
+    padding-top: 10px;
+}
+.contact-message {
+    position: relative;
+    width: 100%;
+    height: 132px;
+    background: #5C804E;
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 22px;
+    color: #F5F5F5;
+}
+.contact-message textarea {
+    position: absolute;
+    min-width: 70%;
+    max-width: 70%;
+    right: 2px;
+    top: 2px;
+    min-height: 128px;
+    max-height: 128px;
+    color: #222;
+    padding: 10px;
+    background: #F5F5F5;
+}
+.checkbox-hear label {
+    margin-top: 0!important;
+}
+.checkbox-hear input[type=checkbox], .checkbox-left input[type=checkbox], .checkbox-right input[type=checkbox] {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.checkbox-hear input:hover, .checkbox-left input:hover, .checkbox-right input:hover {
+    cursor: pointer;
+}
+.checkbox-hear label, .checkbox-left label, .checkbox-right label {
+    padding-left: 6px;
+    color: #444;
+    font-size: 13px;
+    margin-top: 7px;
+    line-height: 23px;
+    position: absolute;
+    font-weight: normal !important;
+}
+.form-group input {
+    border-radius: 0;
+    font-family: "Lato" !important;
+    font-weight: normal;
+    text-shadow: none;
+}
+.show-btn {
+    border-radius: 0!important;
+    margin-bottom: 15px;
+    color: #fff!important;
+}
+button {
+    border-radius: 0!important;
+}
+.send-btn {
+    width: 100%;
+    height: 55px;
+    background: #5C804E;
+    border: 3px solid #5C804E;
+    transition: .27s ease;
+}
+.send-btn:hover {
+    background: #F5F5F5;
+    border: 3px solid #5C804E;
+    color: #5C804E;
+    font-weight: 700;
+    transition: .27s ease;
+}
+.contact-header-fix ul {
+    list-style: none;
+    margin-left: -45px;
+}
+.contact-header-fix ul span {
+    margin-right: 15px;
+    font-size: 26px;
+    color: #5C804E;
+}
+.contact-header-fix ul li {
+    margin-bottom: 10px;
+}
+.icons {
+    font-size: 1.85em;
+    color: #e7e7e7;
+    top: 2px;
+    position: relative;
+
+}
+.facebook-icon {
+    margin-right: -50px!important;
+    margin-left: -50px;
+    position: relative;
+    transition: .25s ease;
+}
+.facebook-icon:hover {
+    color: #5C804E;
+    transition: .25s ease;
+}
+.google-icon {
+    margin-right: -25px!important;
+    position: relative;
+    transition: .25s ease;
+}
+.google-icon:hover {
+    color: #5C804E;
+    transition: .25s ease;
+}
+.contact-page-icons li {
+    font-size: 16px;
+}
+@font-face {
+    font-family: fontello;
+    src: url(../fonts/fontello.eot?29790803);
+    src: url(../fonts/fontello.eot?29790803#iefix) format('embedded-opentype'), url(../fonts/fontello.woff?29790803) format('woff'), url(../fonts/fontello.ttf?29790803) format('truetype'), url(../fonts/fontello.svg?29790803#fontello) format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+[class*=" icon-"]:before, [class^=icon-]:before {
+    font-family: fontello;
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+}
+.icon-googleplus:before {
+    content: '\e800'}
+.icon-facebook:before {
+    content: '\e801'}
+.icon-phone:before {
+    content: '\e808'}
+.icon-location:before {
+    content: '\e809'}
+.icon-email:before {
+    content: '\e80a'}
+.award-description {
+    position: absolute;
+    top: 85px;
+    left: 130px;
+    color: #e7e7e7;
+}
+.accent-award {
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.spam-val {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #5C804E;
+    line-height: 45px;
+    margin-bottom: 13px;
+    color: #F5F5F5;
+}
+.spam-val label {
+    width: 30%!important;
+    position: absolute!important;
+    line-height: 50px;
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 18px;
+}
+.spam-val input {
+    position: absolute!important;
+    right: 2px;
+    top: 2px;
+    height: 46px;
+    width: 70%;
+    border: none!important;
+    background: #F5F5F5;
+    padding-left: 10px;
+    color: #000;
+}
+.subpage-image1 h3 {
+    text-align: left;
+    margin-top: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5C804E;
+}
+
+.error_message {
+    font-size: 17px;
+    color: #6E0B00;
+    font-weight: bold;
+    background: #EB857A;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.subpage-image1 {
+    border: none !important;
+}
+
+
+
+/******* New Service Boxes (4/24/15 Update) *******/
+
+.service-page-title {
+    margin-top: 20px !important;
+}
+
+.service-title-border {
+    margin-top: -40px !important;
+}
+
+.home-service-outside {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+/* Parts Used Box - Image BG */
+.home-service-inner {
+        background: url(../images/piston.png);
+    background-repeat: no-repeat !important;   
+     height: 170px;
+    min-width: 220px;
+    position: relative;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+/*** concrete servicebox ***/
+.home-service-concrete {
+    background: url(../images/concrete/concrete01a.jpg) !important;
+    background-size: 126% !important;
+    background-position: center !important;
+}
+
+/*** hardscape servicebox ***/
+.home-service-hardscape {
+    background: url(../images/servicebox-hardscape.jpg) !important;
+    background-size: 100% !important;
+    background-position: center !important;
+}
+
+/*** landscape servicebox ***/
+.home-service-landscape {
+    background: url(../images/servicebox-landscape.jpg) !important;
+    background-size: 100% !important;
+    background-position: center !important;
+}
+
+/*** landscape design servicebox ***/
+.home-service-landscapedesign {
+    background: url(../images/servicebox-ldesign.jpg) !important;
+    background-size: 100% !important;
+    background-position: bottom !important;
+}
+
+/*** lawn and turf servicebox ***/
+.home-service-lawn {
+    background: url(../images/servicebox-lawn.jpg) !important;
+    background-size: 100% !important;
+    background-position: bottom !important;
+}
+
+/*** maintenance servicebox ***/
+.home-service-maintenance {
+    background: url(../images/servicebox-maintenance.jpg) !important;
+    background-size: 100% !important;
+    background-position: top !important;
+}
+
+/*** material delivery servicebox ***/
+.home-service-delivery {
+    background: url(../images/servicebox-delivery.jpg) !important;
+    background-size: 110% !important;
+    background-position: center !important;
+}
+
+/*** snow removal servicebox ***/
+.home-service-snow {
+    background: url(../images/snow-removal.jpg) !important;
+    background-size: 145% !important;
+    background-position: bottom !important;
+}
+
+/*** tree and firewood servicebox ***/
+.home-service-tree {
+    background: url(../images/servicebox-tree2.jpg) !important;
+    background-size: 120% !important;
+    background-position: center !important;
+}
+
+
+
+
+
+
+.home-service-inner a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: 0.3s all;
+    z-index: 2;
+}
+
+.home-service-inner a:hover {
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.20);
+    transition: 0.3s all;
+}
+
+.home-service-inner a:active {
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.70);
+    transition: 0.3s all;
+}
+
+
+/* (Part Image BG) > Hover Overlay background */
+.home-service-inner a > .parts-hover-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 0.55s all;
+    opacity: 1;
+}
+/* (Part Image BG) > Hover Overlay background */
+.home-service-inner a:hover > .parts-hover-overlay {
+        background: rgba(92, 128, 78, .72);
+    opacity: 1;
+    position: absolute;
+    height: 170px;
+    width: 100%;
+    top: 0;
+    transition: 0.55s all;
+    opacity: 1;
+    z-index: 2;
+}
+/* (Part Image BG) > Hover Overlay background */
+.home-service-inner a:active > .parts-hover-overlay {
+        background: rgba(92, 128, 78, .62);
+    opacity: 1;
+    margin-bottom: 30px;
+    transition: .3s ease;
+}
+
+/* (Part Image BG) > Hover Overlay Text Styles */
+
+        /* "View Part" text span: before */
+        .home-service-inner a > .parts-hover-overlay > .part-hover-text-left {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            transition: 0.42s all;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            opacity: 0;
+            line-height: 170px;     /* line height matches height of inner div, make sure they all match */
+            text-align: center;
+            color: #fff;
+            font-size: 0.6em;
+        }
+        /* "View Part" text span: after */
+        .home-service-inner a:hover > .parts-hover-overlay > .part-hover-text-left {
+            left: 0;
+            right: 0;
+            margin-top: -10px;
+            text-align: center;
+            transition: 0.42s all;
+            text-align: center;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            opacity: 1;
+            font-size: 2.5em;
+            font-weight: bold;
+            font-weight: 700;
+        }
+
+        /* "Information" text span: before */
+        .home-service-inner a > .parts-hover-overlay > .part-hover-text-right {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            transition: 0.42s all;
+            padding-top: 20px;
+            opacity: 0;
+            line-height: 170px;     /* line height matches height of inner div, make sure they all match */
+            text-align: center;
+            color: #fff;
+            font-size: 1.6em;
+        }
+        /* "Information" text span: after */
+        .home-service-inner a:hover > .parts-hover-overlay > .part-hover-text-right {
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            transition: 0.42s all;
+            text-align: center;
+            margin-top: -10px;
+            padding-right: 0px;
+            opacity: 1;
+            font-size: 1.2em;
+            font-weight: bold;
+            font-weight: 700;
+        }
+
+
+/* Parts Used Box - Title BG */
+.parts-used-title {
+    min-width: 220px;
+    position: relative;
+    background: #fff;
+   z-index: 25;
+   margin-top: -20px;
+    /*border-top: 2px solid #2ecc71;*/
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+/* Parts Used Title H3 */
+.parts-used-title h3 {
+
+    text-align: left !important;
+    padding-left: 12px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-size: 1.1em;
+    color: #352E24;
+    font-weight: bold;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.go-to-link {
+    position: absolute;
+    right: 12px;
+    top: 18px;
+    font-size: 1.4em;
+}
+
+.go-to-link a {
+    opacity: 0.7;
+    color: #5C804E;
+    transition: 0.3s all;
+}
+
+.go-to-link a:hover {
+    opacity: 1;
+    transition: 0.3s all;
+}
+
+.footer-text-left p {
+    text-align: left !important;
+    font-size: 0.90em;
+    color: #CAB79B !important;
+}
+
+.footer-text-right {
+    text-align: right !important;
+    font-size: 0.90em;
+}
+
+.pipe-spacer {
+    font-size: 0.8em;
+    color: #F5F5F5 !important;
+}
+
+.sub-footer-links {
+    font-size: 0.9em;
+}
+
+.footer-links-large {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.footer-links-large span {
+    padding: 15px;
+    letter-spacing: 0.02em;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-center ul {
+    font-size: 0.9em;
+}
+
+.footer-contact-row {
+    margin-top: 40px !important;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+.awards-bg {
+
+    background: #120C04; /*1F1608 */
+    position: relative;
+    z-index: 3;
+    padding-bottom: 30px;
+    margin-bottom: -20px;
+}
+
+.awards-container {
+    text-align: center;
+}
+
+.awards-container > div > img {
+    padding-top: 20px;
+}
+
+.wlca-fix {
+    padding-top: 44px !important;
+}
+.awards-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #CAB79B;
+    padding-top: 15px;
+}
+
+.reg-weight {
+    font-weight: normal;
+}
+
+.copyright-bg {
+    width: 100%;
+    height: 30px;
+    background: #000;
+    position: relative;
+}
+
+.footer-text-left a > span {
+    color: #CAB79B !important;
+}
+
+.footer-text-left a:hover > span {
+    color: #F5F5F5 !important;
+}
+
+.slider-divide {
+    background: #F5F5F5 !important;
+}
+
+.bottom-package {
+    padding-bottom: 100px;
+}
+
+.portfolio-title-fix {
+    margin-top: -60px;
+}
+
+.anti-spam {
+    font-size: 0.8em !important;
+}
+
+.required-alert {
+    color: #6E0B00;
+    font-weight: bold;
+}
+
+.message-sent-check {
+    color: #0C2104;
+    margin-right: 10px;
+}
+
+
+#check-mark-div {
+    padding-top: 5px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    width: 100% !important;
+    background: #5C804E !important;
+    color: #0C2104;
+}
+
+
+@media (max-width: 992px) {.footer-contact      {margin-bottom: 15px !important;}
+                           .return-port a {display: none;}
+                           .tree-thumb01:hover, .tree-thumb02:hover, .tree-thumb03:hover, .tree-thumb04:hover, .tree-thumb05:hover,.tree-thumb06:hover, .tree-thumb07:hover, .tree-thumb08:hover,
+.tree-thumb09:hover, .tree-thumb10:hover, .tree-thumb11:hover, .tree-thumb12:hover, .tree-thumb13:hover,.tree-thumb14:hover, .tree-thumb15:hover, .tree-thumb16:hover,
+.tree-thumb17:hover, .tree-thumb18:hover, .tree-thumb19:hover, .tree-thumb20:hover, .tree-thumb21:hover,.tree-thumb22:hover, .tree-thumb23:hover, .tree-thumb24:hover,
+.tree-thumb25:hover, .tree-thumb26:hover, .tree-thumb27:hover, .tree-thumb28:hover, .tree-thumb29:hover,.tree-thumb30:hover, .tree-thumb31:hover, .tree-thumb32:hover,
+.tree-thumb33:hover, .tree-thumb34:hover, .tree-thumb35:hover, .tree-thumb36:hover, .tree-thumb37:hover,.tree-thumb38:hover, .tree-thumb39:hover, .tree-thumb40:hover{
+    background-size: cover!important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+.tree-thumb01, .tree-thumb02, .tree-thumb03, .tree-thumb04, .tree-thumb05,.tree-thumb06, .tree-thumb07, .tree-thumb08,
+.tree-thumb09, .tree-thumb10, .tree-thumb11, .tree-thumb12, .tree-thumb13,.tree-thumb14, .tree-thumb15, .tree-thumb16,
+.tree-thumb17, .tree-thumb18, .tree-thumb19, .tree-thumb20, .tree-thumb21,.tree-thumb22, .tree-thumb23, .tree-thumb24,
+.tree-thumb25, .tree-thumb26, .tree-thumb27, .tree-thumb28, .tree-thumb29,.tree-thumb30, .tree-thumb31, .tree-thumb32,
+.tree-thumb33, .tree-thumb34, .tree-thumb35, .tree-thumb36, .tree-thumb37,.tree-thumb38, .tree-thumb39, .tree-thumb40{
+    background-size: cover !important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+}
+
+@media (max-width: 992px) {.footer-mobile-center p    {text-align: center !important; margin-bottom: 10px;}}
+@media (max-width: 992px) {.footer-text-right, .footer-text-left     {text-align: center !important;}}
+
+/* (Parts Used Boxes) adjusts padding to prevent very skinny boxes before mobile break */
+@media (max-width: 1280px) {.home-service-outside         {float: left !important; width: 50% !important;}}
+@media (max-width: 992px) {.center-grid       {margin:0 !important;}}
+@media (max-width: 760px) {.home-service-outside      {float: none !important; width: 85% !important; margin: 0 auto !important; padding-left: 0px !important; padding-right: 0px !important;}}
+
+/*
+@media (max-width: 992px) {.parts-index-wrap        {width: 100% !important; margin-top: -120px !important;}}
+@media (max-width: 992px) {.parts-index-side        {padding-bottom: 45px!important; }}
+
+@media (max-width: 992px) {.parts-index-side h3     {padding-top: 45px !important; text-align: center; }}
+@media (max-width: 992px) {.parts-index-side p      {padding-bottom: 15px !important; text-align: center;}}
+@media (max-width: 992px) {.view-index a            {text-align: center; line-height: 75px !important; font-size: 1.4em !important;}}
+@media (max-width: 992px) {.view-index              {height: 75px !important; width: 300px !important; margin: 0 auto !important;}}
+*/
