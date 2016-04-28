@@ -1761,7 +1761,9 @@ position: relative !important;
 .tree-thumb17:hover, .tree-thumb18:hover, .tree-thumb19:hover, .tree-thumb20:hover, .tree-thumb21:hover,.tree-thumb22:hover, .tree-thumb23:hover, .tree-thumb24:hover,
 .tree-thumb25:hover, .tree-thumb26:hover, .tree-thumb27:hover, .tree-thumb28:hover, .tree-thumb29:hover,.tree-thumb30:hover, .tree-thumb31:hover, .tree-thumb32:hover,
 .tree-thumb33:hover, .tree-thumb34:hover, .tree-thumb35:hover, .tree-thumb36:hover, .tree-thumb37:hover,.tree-thumb38:hover, .tree-thumb39:hover, .tree-thumb40:hover,
-.concrete-thumb01, .concrete-thumb02, .concrete-thumb03{
+.concrete-thumb01:hover, .concrete-thumb02:hover, .concrete-thumb03:hover, .hardscape-thumb01:hover, .hardscape-thumb02:hover, .hardscape-thumb03:hover, 
+.hardscape-thumb04:hover, .hardscape-thumb05:hover, .hardscape-thumb06:hover, .hardscape-thumb07:hover, .hardscape-thumb08:hover, .hardscape-thumb09:hover,
+.hardscape-thumb10:hover, .hardscape-thumb11:hover, .hardscape-thumb12:hover, .hardscape-thumb13:hover{
     background-size: 185%!important;
     -webkit-transition: .4s ease-out;
     transition: .4s ease-out;
@@ -1771,7 +1773,9 @@ position: relative !important;
 .tree-thumb17, .tree-thumb18, .tree-thumb19, .tree-thumb20, .tree-thumb21,.tree-thumb22, .tree-thumb23, .tree-thumb24,
 .tree-thumb25, .tree-thumb26, .tree-thumb27, .tree-thumb28, .tree-thumb29,.tree-thumb30, .tree-thumb31, .tree-thumb32,
 .tree-thumb33, .tree-thumb34, .tree-thumb35, .tree-thumb36, .tree-thumb37,.tree-thumb38, .tree-thumb39, .tree-thumb40,
-.concrete-thumb01, .concrete-thumb02, .concrete-thumb03{
+.concrete-thumb01, .concrete-thumb02, .concrete-thumb03, .hardscape-thumb01, .hardscape-thumb02, .hardscape-thumb03, 
+.hardscape-thumb04, .hardscape-thumb05, .hardscape-thumb06, .hardscape-thumb07, .hardscape-thumb08, .hardscape-thumb09,
+.hardscape-thumb10, .hardscape-thumb11, .hardscape-thumb12, .hardscape-thumb13 {
     background-size: 168% !important;
     -webkit-transition: .4s ease-out;
     transition: .4s ease-out;
@@ -1826,7 +1830,24 @@ position: relative !important;
 .concrete-thumb02 {background: url(../portfolio/images/concrete/concrete_02_thumb.jpg) center;}
 .concrete-thumb03 {background: url(../portfolio/images/concrete/concrete_03_thumb.jpg) center;}
 
+/** Hardscape Portfolio Images **/
+/** New as of 27 April 2016 ***/
+.hardscape-thumb01 {background: url(../portfolio/images/hardscape/hardscape_01_thumb.jpg) center;}
+.hardscape-thumb02 {background: url(../portfolio/images/hardscape/hardscape_02_thumb.jpg) center;}
+.hardscape-thumb03 {background: url(../portfolio/images/hardscape/hardscape_03_thumb.jpg) center;}
+.hardscape-thumb04 {background: url(../portfolio/images/hardscape/hardscape_04_thumb.jpg) center;}
+.hardscape-thumb05 {background: url(../portfolio/images/hardscape/hardscape_05_thumb.jpg) center;}
+.hardscape-thumb06 {background: url(../portfolio/images/hardscape/hardscape_06_thumb.jpg) center;}
+.hardscape-thumb07 {background: url(../portfolio/images/hardscape/hardscape_07_thumb.jpg) center;}
+.hardscape-thumb08 {background: url(../portfolio/images/hardscape/hardscape_08_thumb.jpg) center;}
+.hardscape-thumb09 {background: url(../portfolio/images/hardscape/hardscape_09_thumb.jpg) center;}
+.hardscape-thumb10 {background: url(../portfolio/images/hardscape/hardscape_10_thumb.jpg) center;}
+.hardscape-thumb11 {background: url(../portfolio/images/hardscape/hardscape_11_thumb.jpg) center;}
+.hardscape-thumb12 {background: url(../portfolio/images/hardscape/hardscape_12_thumb.jpg) center;}
+.hardscape-thumb13 {background: url(../portfolio/images/hardscape/hardscape_13_thumb.jpg) center;}
 
+
+ 
 
 .tree-port02 {
     background: url(../images/tree_firewood/tree02.jpg) center;
