@@ -1,6 +1,4 @@
-# ypg
-
-Your Personal Gardener Website
+# Your Personal Gardener
 (yourpersonalgardenerllc.com)
 
 Overview
