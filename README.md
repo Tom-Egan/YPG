@@ -8,11 +8,11 @@
 #####Folder Structure
 ~~~~
 includes
-  css
-  js
-  reusable php modules
+  - css
+  - js
+  - php modules
 
 portfolio
-  portfolio pages
-  portfolio images/thumbnails
+  - portfolio pages
+  - portfolio images/thumbnails
 ~~~~
