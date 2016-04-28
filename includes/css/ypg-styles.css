@@ -1763,7 +1763,12 @@ position: relative !important;
 .tree-thumb33:hover, .tree-thumb34:hover, .tree-thumb35:hover, .tree-thumb36:hover, .tree-thumb37:hover,.tree-thumb38:hover, .tree-thumb39:hover, .tree-thumb40:hover,
 .concrete-thumb01:hover, .concrete-thumb02:hover, .concrete-thumb03:hover, .hardscape-thumb01:hover, .hardscape-thumb02:hover, .hardscape-thumb03:hover, 
 .hardscape-thumb04:hover, .hardscape-thumb05:hover, .hardscape-thumb06:hover, .hardscape-thumb07:hover, .hardscape-thumb08:hover, .hardscape-thumb09:hover,
-.hardscape-thumb10:hover, .hardscape-thumb11:hover, .hardscape-thumb12:hover, .hardscape-thumb13:hover{
+.hardscape-thumb10:hover, .hardscape-thumb11:hover, .hardscape-thumb12:hover, .hardscape-thumb13:hover, .landscape-thumb01:hover, .landscape-thumb02:hover,
+.landscape-thumb03:hover, .landscape-thumb04:hover, .landscape-thumb05:hover, .landscape-thumb06:hover, .landscape-thumb07:hover, .landscape-thumb08:hover, 
+.landscape-thumb09:hover, .landscape-thumb10:hover, .landscape-thumb11:hover, .landscape-thumb12:hover, .landscape-thumb13:hover, .landscape-thumb14:hover, 
+.landscape-thumb15:hover, .landscape-thumb16:hover, .landscape-thumb17:hover, .landscape-thumb18:hover, .landscape-thumb19:hover, .landscape-thumb20:hover, 
+.landscape-thumb21:hover, .landscape-thumb22:hover, .landscape-thumb23:hover, .landscape-thumb24:hover, .landscape-thumb25:hover, .lawn-thumb01:hover, 
+.lawn-thumb02:hover, .lawn-thumb03:hover, .lawn-thumb04:hover, .lawn-thumb05:hover, .mat-delivery-thumb01:hover, .mat-delivery-thumb02:hover, .mat-delivery-thumb03:hover{
     background-size: 185%!important;
     -webkit-transition: .4s ease-out;
     transition: .4s ease-out;
@@ -1775,13 +1780,18 @@ position: relative !important;
 .tree-thumb33, .tree-thumb34, .tree-thumb35, .tree-thumb36, .tree-thumb37,.tree-thumb38, .tree-thumb39, .tree-thumb40,
 .concrete-thumb01, .concrete-thumb02, .concrete-thumb03, .hardscape-thumb01, .hardscape-thumb02, .hardscape-thumb03, 
 .hardscape-thumb04, .hardscape-thumb05, .hardscape-thumb06, .hardscape-thumb07, .hardscape-thumb08, .hardscape-thumb09,
-.hardscape-thumb10, .hardscape-thumb11, .hardscape-thumb12, .hardscape-thumb13 {
+.hardscape-thumb10, .hardscape-thumb11, .hardscape-thumb12, .hardscape-thumb13, .landscape-thumb01, .landscape-thumb02,
+.landscape-thumb03, .landscape-thumb04, .landscape-thumb05, .landscape-thumb06, .landscape-thumb07, .landscape-thumb08, 
+.landscape-thumb09, .landscape-thumb10, .landscape-thumb11, .landscape-thumb12, .landscape-thumb13, .landscape-thumb14, 
+.landscape-thumb15, .landscape-thumb16, .landscape-thumb17, .landscape-thumb18, .landscape-thumb19, .landscape-thumb20, 
+.landscape-thumb21, .landscape-thumb22, .landscape-thumb23, .landscape-thumb24, .landscape-thumb25, .lawn-thumb01, 
+.lawn-thumb02, .lawn-thumb03, .lawn-thumb04, .lawn-thumb05, .mat-delivery-thumb01, .mat-delivery-thumb02, .mat-delivery-thumb03{
     background-size: 168% !important;
     -webkit-transition: .4s ease-out;
     transition: .4s ease-out;
 }
 
-/** Tree Portfolio Images **/
+/** Tree Portfolio Thumbnail Images **/
 /** New as of 26 April 2016 ***/
 .tree-thumb01 {background: url(../portfolio/images/tree_service/tree_service_01_thumb.jpg) center;}
 .tree-thumb02 {background: url(../portfolio/images/tree_service/tree_service_02_thumb.jpg) center;}
@@ -1824,13 +1834,13 @@ position: relative !important;
 .tree-thumb39 {background: url(../portfolio/images/tree_service/tree_service_39_thumb.jpg) center;}
 .tree-thumb40 {background: url(../portfolio/images/tree_service/tree_service_40_thumb.jpg) center;}
 
-/** Concrete Portfolio Images **/
+/** Concrete Portfolio Thumbnail Images **/
 /** New as of 27 April 2016 ***/
 .concrete-thumb01 {background: url(../portfolio/images/concrete/concrete_01_thumb.jpg) center;}
 .concrete-thumb02 {background: url(../portfolio/images/concrete/concrete_02_thumb.jpg) center;}
 .concrete-thumb03 {background: url(../portfolio/images/concrete/concrete_03_thumb.jpg) center;}
 
-/** Hardscape Portfolio Images **/
+/** Hardscape Portfolio Thumbnail Images **/
 /** New as of 27 April 2016 ***/
 .hardscape-thumb01 {background: url(../portfolio/images/hardscape/hardscape_01_thumb.jpg) center;}
 .hardscape-thumb02 {background: url(../portfolio/images/hardscape/hardscape_02_thumb.jpg) center;}
@@ -1846,7 +1856,48 @@ position: relative !important;
 .hardscape-thumb12 {background: url(../portfolio/images/hardscape/hardscape_12_thumb.jpg) center;}
 .hardscape-thumb13 {background: url(../portfolio/images/hardscape/hardscape_13_thumb.jpg) center;}
 
+/** Landscape Portfolio Thumbnail Images **/
+/** New as of 27 April 2016 ***/
+.landscape-thumb01 {background: url(../portfolio/images/landscape/landscape_01_thumb.jpg) center;}
+.landscape-thumb02 {background: url(../portfolio/images/landscape/landscape_02_thumb.jpg) center;}
+.landscape-thumb03 {background: url(../portfolio/images/landscape/landscape_03_thumb.jpg) center;}
+.landscape-thumb04 {background: url(../portfolio/images/landscape/landscape_04_thumb.jpg) center;}
+.landscape-thumb05 {background: url(../portfolio/images/landscape/landscape_05_thumb.jpg) center;}
+.landscape-thumb06 {background: url(../portfolio/images/landscape/landscape_06_thumb.jpg) center;}
+.landscape-thumb07 {background: url(../portfolio/images/landscape/landscape_07_thumb.jpg) center;}
+.landscape-thumb08 {background: url(../portfolio/images/landscape/landscape_08_thumb.jpg) center;}
+.landscape-thumb09 {background: url(../portfolio/images/landscape/landscape_09_thumb.jpg) center;}
+.landscape-thumb10 {background: url(../portfolio/images/landscape/landscape_10_thumb.jpg) center;}
+.landscape-thumb11 {background: url(../portfolio/images/landscape/landscape_11_thumb.jpg) center;}
+.landscape-thumb12 {background: url(../portfolio/images/landscape/landscape_12_thumb.jpg) center;}
+.landscape-thumb13 {background: url(../portfolio/images/landscape/landscape_13_thumb.jpg) center;}
+.landscape-thumb14 {background: url(../portfolio/images/landscape/landscape_14_thumb.jpg) center;}
+.landscape-thumb15 {background: url(../portfolio/images/landscape/landscape_15_thumb.jpg) center;}
+.landscape-thumb16 {background: url(../portfolio/images/landscape/landscape_16_thumb.jpg) center;}
+.landscape-thumb17 {background: url(../portfolio/images/landscape/landscape_17_thumb.jpg) center;}
+.landscape-thumb18 {background: url(../portfolio/images/landscape/landscape_18_thumb.jpg) center;}
+.landscape-thumb19 {background: url(../portfolio/images/landscape/landscape_19_thumb.jpg) center;}
+.landscape-thumb20 {background: url(../portfolio/images/landscape/landscape_20_thumb.jpg) center;}
+.landscape-thumb21 {background: url(../portfolio/images/landscape/landscape_21_thumb.jpg) center;}
+.landscape-thumb22 {background: url(../portfolio/images/landscape/landscape_22_thumb.jpg) center;}
+.landscape-thumb23 {background: url(../portfolio/images/landscape/landscape_23_thumb.jpg) center;}
+.landscape-thumb24 {background: url(../portfolio/images/landscape/landscape_24_thumb.jpg) center;}
+.landscape-thumb25 {background: url(../portfolio/images/landscape/landscape_25_thumb.jpg) center;}
 
+/** Lawn Portfolio Thumbnail Images **/
+/** New as of 27 April 2016 ***/
+.lawn-thumb01 {background: url(../portfolio/images/lawn/lawn_01_thumb.jpg) center;}
+.lawn-thumb02 {background: url(../portfolio/images/lawn/lawn_02_thumb.jpg) center;}
+.lawn-thumb03 {background: url(../portfolio/images/lawn/lawn_03_thumb.jpg) center;}
+.lawn-thumb04 {background: url(../portfolio/images/lawn/lawn_04_thumb.jpg) center;}
+.lawn-thumb05 {background: url(../portfolio/images/lawn/lawn_05_thumb.jpg) center;}
+.lawn-thumb06 {background: url(../portfolio/images/lawn/lawn_06_thumb.jpg) center;}
+
+/** Material Delivery Portfolio Thumbnail Images **/
+/** New as of 27 April 2016 ***/
+.mat-delivery-thumb01 {background: url(../portfolio/images/material_delivery/mat_delivery_01_thumb.jpg) center;}
+.mat-delivery-thumb02 {background: url(../portfolio/images/material_delivery/mat_delivery_02_thumb.jpg) center;}
+.mat-delivery-thumb03 {background: url(../portfolio/images/material_delivery/mat_delivery_03_thumb.jpg) center;}
  
 
 .tree-port02 {
