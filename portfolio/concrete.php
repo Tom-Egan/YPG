@@ -43,13 +43,13 @@
     <link rel="stylesheet" href="../css/lightbox.css" />
 
     <!-- favicons and touch icons-->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-                     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-32-precomposed.png">
-                                    <link rel="shortcut icon" href="assets/ico/apple-touch-icon-32-precomposed.png">
-                                                            <link rel="shortcut icon" href="assets/ico/favicon.png"> 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-32-precomposed.png">
+                                    <link rel="shortcut icon" href="../assets/ico/apple-touch-icon-32-precomposed.png">
+                                                            <link rel="shortcut icon" href="../assets/ico/favicon.png"> 
 </head>
 
 <body>
@@ -110,7 +110,7 @@
 
             <!-- [CONCRETE 03] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete__03_full.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="images/concrete/concrete_03_full.jpg" data-lightbox="featuredproperty-main" title="">
                 <!-- thumbnail holder -->
                 <div class="portfolio-zoom concrete-thumb03">
                     <div class="servicebox-hover">
@@ -122,7 +122,7 @@
 
             <!-- [CONCRETE 04] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete02.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete02.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port14">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -137,7 +137,7 @@
             
             <!-- [CONCRETE 05] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete21.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete21.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port15">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -147,7 +147,7 @@
             </div>
             <!-- [CONCRETE 06] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete04.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete04.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port16">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -157,7 +157,7 @@
             </div>
             <!-- [CONCRETE 07] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete05.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete05.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port17">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -167,7 +167,7 @@
             </div>
             <!-- [CONCRETE 08] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete06.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete06.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port18">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -183,7 +183,7 @@
             
             <!-- [CONCRETE 09] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete08.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete08.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port20">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -193,7 +193,7 @@
             </div>
             <!-- [CONCRETE 10] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete09.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete09.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port21">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -203,7 +203,7 @@
             </div>
             <!-- [CONCRETE 11] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete10.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete10.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port22">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -213,7 +213,7 @@
             </div>
             <!-- [CONCRETE 12] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete20.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete20.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port19">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -228,7 +228,7 @@
         <div class="row">  
             <!-- [CONCRETE 13] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete11.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete11.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port23">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -238,7 +238,7 @@
             </div>
             <!-- [CONCRETE 14] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete12.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete12.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port24">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -248,7 +248,7 @@
             </div>
             <!-- [CONCRETE 15] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete18.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete18.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port26">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -258,7 +258,7 @@
             </div>
             <!-- [CONCRETE 16] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete19.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete19.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port29">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -273,7 +273,7 @@
                  
             <!-- [CONCRETE 17] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete13.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete13.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port25">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -283,7 +283,7 @@
             </div>
             <!-- [CONCRETE 18] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete15.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete15.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port27">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>
@@ -293,7 +293,7 @@
             </div>
             <!-- [CONCRETE 19] -->
             <div class="col-md-3 servicebox">
-                <a href="images/concrete/concrete16.jpg" data-lightbox="featuredproperty-main" title="">
+                <a href="../images/concrete/concrete16.jpg" data-lightbox="featuredproperty-main" title="">
                 <div class="portfolio-zoom hardscape-port28">
                     <div class="servicebox-hover">
                         <span class="glyphicon glyphicon-search"></span>

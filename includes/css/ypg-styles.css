@@ -1760,7 +1760,8 @@ position: relative !important;
 .tree-thumb09:hover, .tree-thumb10:hover, .tree-thumb11:hover, .tree-thumb12:hover, .tree-thumb13:hover,.tree-thumb14:hover, .tree-thumb15:hover, .tree-thumb16:hover,
 .tree-thumb17:hover, .tree-thumb18:hover, .tree-thumb19:hover, .tree-thumb20:hover, .tree-thumb21:hover,.tree-thumb22:hover, .tree-thumb23:hover, .tree-thumb24:hover,
 .tree-thumb25:hover, .tree-thumb26:hover, .tree-thumb27:hover, .tree-thumb28:hover, .tree-thumb29:hover,.tree-thumb30:hover, .tree-thumb31:hover, .tree-thumb32:hover,
-.tree-thumb33:hover, .tree-thumb34:hover, .tree-thumb35:hover, .tree-thumb36:hover, .tree-thumb37:hover,.tree-thumb38:hover, .tree-thumb39:hover, .tree-thumb40:hover{
+.tree-thumb33:hover, .tree-thumb34:hover, .tree-thumb35:hover, .tree-thumb36:hover, .tree-thumb37:hover,.tree-thumb38:hover, .tree-thumb39:hover, .tree-thumb40:hover,
+.concrete-thumb01, .concrete-thumb02, .concrete-thumb03{
     background-size: 185%!important;
     -webkit-transition: .4s ease-out;
     transition: .4s ease-out;
@@ -1769,12 +1770,15 @@ position: relative !important;
 .tree-thumb09, .tree-thumb10, .tree-thumb11, .tree-thumb12, .tree-thumb13,.tree-thumb14, .tree-thumb15, .tree-thumb16,
 .tree-thumb17, .tree-thumb18, .tree-thumb19, .tree-thumb20, .tree-thumb21,.tree-thumb22, .tree-thumb23, .tree-thumb24,
 .tree-thumb25, .tree-thumb26, .tree-thumb27, .tree-thumb28, .tree-thumb29,.tree-thumb30, .tree-thumb31, .tree-thumb32,
-.tree-thumb33, .tree-thumb34, .tree-thumb35, .tree-thumb36, .tree-thumb37,.tree-thumb38, .tree-thumb39, .tree-thumb40{
+.tree-thumb33, .tree-thumb34, .tree-thumb35, .tree-thumb36, .tree-thumb37,.tree-thumb38, .tree-thumb39, .tree-thumb40,
+.concrete-thumb01, .concrete-thumb02, .concrete-thumb03{
     background-size: 168% !important;
     -webkit-transition: .4s ease-out;
     transition: .4s ease-out;
 }
 
+/** Tree Portfolio Images **/
+/** New as of 26 April 2016 ***/
 .tree-thumb01 {background: url(../portfolio/images/tree_service/tree_service_01_thumb.jpg) center;}
 .tree-thumb02 {background: url(../portfolio/images/tree_service/tree_service_02_thumb.jpg) center;}
 .tree-thumb03 {background: url(../portfolio/images/tree_service/tree_service_03_thumb.jpg) center;}
@@ -1815,6 +1819,12 @@ position: relative !important;
 .tree-thumb38 {background: url(../portfolio/images/tree_service/tree_service_38_thumb.jpg) center;}
 .tree-thumb39 {background: url(../portfolio/images/tree_service/tree_service_39_thumb.jpg) center;}
 .tree-thumb40 {background: url(../portfolio/images/tree_service/tree_service_40_thumb.jpg) center;}
+
+/** Concrete Portfolio Images **/
+/** New as of 27 April 2016 ***/
+.concrete-thumb01 {background: url(../portfolio/images/concrete/concrete_01_thumb.jpg) center;}
+.concrete-thumb02 {background: url(../portfolio/images/concrete/concrete_02_thumb.jpg) center;}
+.concrete-thumb03 {background: url(../portfolio/images/concrete/concrete_03_thumb.jpg) center;}
 
 
 
