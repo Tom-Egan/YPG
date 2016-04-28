@@ -7,12 +7,12 @@
 
 ####Folder Structure
 ~~~~
-######_includes_
+###### _includes_
   - css
   - js
   - php modules
 
-######_portfolio_
+###### _portfolio_
   - portfolio pages
   - portfolio images/thumbnails
 ~~~~
