@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tree_images>
+	<tree_image>
+		<img>tree_service_01_full</img>
+	</tree_image>
+	<tree_image>
+		<img>tree_service_02_full</img>
+	</tree_image>
+	<tree_image>
+		<img>tree_service_03_full</img>
+	</tree_image>
+	<tree_image>
+		<img>tree_service_04_full</img>
+	</tree_image>
+	<tree_image>
+		<img>tree_service_05_full</img>
+	</tree_image>
+</tree_images>
