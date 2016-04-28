@@ -6,13 +6,14 @@
 
 
 ####Folder Structure
+~~~~
+- includes
+---- css
+---- js
+---- php modules
 
-*includes*
-  - css
-  - js
-  - php modules
-
-*portfolio*
-  - portfolio pages
-  - portfolio images/thumbnails
-
+- portfolio
+---- portfolio pages
+---- portfolio images/thumbnails
+	
+~~~~
