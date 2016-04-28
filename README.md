@@ -1,20 +1,20 @@
 # Your Personal Gardener
-(yourpersonalgardenerllc.com)
+- (yourpersonalgardenerllc.com)
 
 Overview
----
+-----
 - Website backup repo
 - Handcoded small business website
 - Mukwonago, Wisconsin landscape company
 
 
 Structure
----
+----
 = includes
-===> css
-===> js
-===> reusable php modules
+=== css
+=== js
+=== reusable php modules
 
 = portfolio subdirectory
-===> portfolio pages
-===> portfolio images/thumbnails
+=== portfolio pages
+=== portfolio images/thumbnails
