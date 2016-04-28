@@ -43,13 +43,13 @@
     <link rel="stylesheet" href="css/lightbox.css" />
 
     <!-- favicons and touch icons-->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-                     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-                     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-32-precomposed.png">
-                                    <link rel="shortcut icon" href="assets/ico/apple-touch-icon-32-precomposed.png">
-                                                            <link rel="shortcut icon" href="assets/ico/favicon.png"> 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-32-precomposed.png">
+                                    <link rel="shortcut icon" href="../assets/ico/apple-touch-icon-32-precomposed.png">
+                                                            <link rel="shortcut icon" href="../assets/ico/favicon.png"> 
 </head>
 
 <body>
@@ -132,7 +132,7 @@
 
                 <!-- Concrete Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-concrete" title="" alt="">
+                    <a href="portfolio/concrete" title="" alt="">
                         <div class="portfolio-zoom1 concrete-main">
                             <div class="servicebox-hover portbox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -143,7 +143,7 @@
 
                 <!-- Concrete "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-concrete"> View More </a>
+                    <a href="portfolio/concrete"> View More </a>
                 </div>
             </div>
 
@@ -273,7 +273,7 @@
 
                 <!-- Tree & Firewood "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-tree-service"> View More </a>
+                    <a href="portfolio/tree-service"> View More </a>
                 </div>
             </div>
         </div> <!--/ end row 3 -->
