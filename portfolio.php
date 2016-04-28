@@ -236,7 +236,7 @@
 
                 <!-- Material Delivery Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-material-delivery" title="" alt="">
+                    <a href="portfolio/material-delivery" title="" alt="">
                         <div class="portfolio-zoom1 delivery-main">
                             <div class="servicebox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -247,7 +247,7 @@
 
                 <!-- Material Delivery "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-material-delivery"> View More </a>
+                    <a href="portfolio/material-delivery"> View More </a>
                 </div>
             </div>
 
