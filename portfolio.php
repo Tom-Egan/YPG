@@ -132,7 +132,7 @@
 
                 <!-- Concrete Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-concrete" title="" alt="">
+                    <a href="portfolio/concrete" title="" alt="">
                         <div class="portfolio-zoom1 concrete-main">
                             <div class="servicebox-hover portbox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -143,7 +143,7 @@
 
                 <!-- Concrete "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-concrete"> View More </a>
+                    <a href="portfolio/concrete"> View More </a>
                 </div>
             </div>
 
@@ -273,7 +273,7 @@
 
                 <!-- Tree & Firewood "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-tree-service"> View More </a>
+                    <a href="portfolio/tree-service"> View More </a>
                 </div>
             </div>
         </div> <!--/ end row 3 -->
