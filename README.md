@@ -4,15 +4,16 @@
 - Handcoded small business website
 - Mukwonago, Wisconsin landscape company
 
+---
 
 ####Folder Structure
 ~~~~
-- includes
+* includes
 ---- css
 ---- js
 ---- php modules
 
-- portfolio
+* portfolio
 ---- portfolio pages
 ---- portfolio images/thumbnails
 	
