@@ -6,7 +6,7 @@
 
 
 ####Folder Structure
-~~~~
+
 *includes*
   - css
   - js
@@ -15,4 +15,4 @@
 *portfolio*
   - portfolio pages
   - portfolio images/thumbnails
-~~~~
+
