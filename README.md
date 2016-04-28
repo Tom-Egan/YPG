@@ -5,14 +5,14 @@
 - Mukwonago, Wisconsin landscape company
 
 
-#####Folder Structure
+####Folder Structure
 ~~~~
-includes
+######_includes_
   - css
   - js
   - php modules
 
-portfolio
+######_portfolio_
   - portfolio pages
   - portfolio images/thumbnails
 ~~~~
