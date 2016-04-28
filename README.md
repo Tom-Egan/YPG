@@ -4,5 +4,5 @@ Your Personal Gardener Website
 (yourpersonalgardenerllc.com)
 
 - Website backup repo
-- Small business website
+- Handcoded small business website
 - Mukwonago, Wisconsin landscape company
