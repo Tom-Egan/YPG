@@ -3561,6 +3561,97 @@ button {
     transition: .4s ease-out; 
 }
 
+/**
+*** Landscape Portfolio Thumbnail Images 
+***
+*** Modified --------- 28 April 2016
+*** Description ------ sets bg image to thumbnail boxes
+*** Generated from --- xml/portfolio_landscape.xml 
+*** Applied to ------- portfolio/landscape.php
+**/
+.landscape_01_full{background: url(../portfolio/images/landscape/landscape_01_thumb.jpg) center;}
+.landscape_02_full{background: url(../portfolio/images/landscape/landscape_02_thumb.jpg) center;}
+.landscape_03_full{background: url(../portfolio/images/landscape/landscape_03_thumb.jpg) center;}
+.landscape_04_full{background: url(../portfolio/images/landscape/landscape_04_thumb.jpg) center;}
+.landscape_05_full{background: url(../portfolio/images/landscape/landscape_05_thumb.jpg) center;}
+.landscape_06_full{background: url(../portfolio/images/landscape/landscape_06_thumb.jpg) center;}
+.landscape_07_full{background: url(../portfolio/images/landscape/landscape_07_thumb.jpg) center;}
+.landscape_08_full{background: url(../portfolio/images/landscape/landscape_08_thumb.jpg) center;}
+.landscape_09_full{background: url(../portfolio/images/landscape/landscape_09_thumb.jpg) center;}
+.landscape_10_full{background: url(../portfolio/images/landscape/landscape_10_thumb.jpg) center;}
+.landscape_11_full{background: url(../portfolio/images/landscape/landscape_11_thumb.jpg) center;}
+.landscape_12_full{background: url(../portfolio/images/landscape/landscape_12_thumb.jpg) center;}
+.landscape_13_full{background: url(../portfolio/images/landscape/landscape_13_thumb.jpg) center;}
+.landscape_14_full{background: url(../portfolio/images/landscape/landscape_14_thumb.jpg) center;}
+.landscape_15_full{background: url(../portfolio/images/landscape/landscape_15_thumb.jpg) center;}
+.landscape_16_full{background: url(../portfolio/images/landscape/landscape_16_thumb.jpg) center;}
+.landscape_17_full{background: url(../portfolio/images/landscape/landscape_17_thumb.jpg) center;}
+.landscape_18_full{background: url(../portfolio/images/landscape/landscape_18_thumb.jpg) center;}
+.landscape_19_full{background: url(../portfolio/images/landscape/landscape_19_thumb.jpg) center;}
+.landscape_20_full{background: url(../portfolio/images/landscape/landscape_20_thumb.jpg) center;}
+.landscape_21_full{background: url(../portfolio/images/landscape/landscape_21_thumb.jpg) center;}
+.landscape_22_full{background: url(../portfolio/images/landscape/landscape_22_thumb.jpg) center;}
+.landscape_23_full{background: url(../portfolio/images/landscape/landscape_23_thumb.jpg) center;}
+.landscape_24_full{background: url(../portfolio/images/landscape/landscape_24_thumb.jpg) center;}
+.landscape_25_full{background: url(../portfolio/images/landscape/landscape_25_thumb.jpg) center;}
+.landscape_26_full{background: url(../portfolio/images/landscape/landscape_26_thumb.jpg) center;}
+.landscape_27_full{background: url(../portfolio/images/landscape/landscape_27_thumb.jpg) center;}
+.landscape_28_full{background: url(../portfolio/images/landscape/landscape_28_thumb.jpg) center;}
+.landscape_29_full{background: url(../portfolio/images/landscape/landscape_29_thumb.jpg) center;}
+.landscape_30_full{background: url(../portfolio/images/landscape/landscape_30_thumb.jpg) center;}
+.landscape_31_full{background: url(../portfolio/images/landscape/landscape_31_thumb.jpg) center;}
+.landscape_32_full{background: url(../portfolio/images/landscape/landscape_32_thumb.jpg) center;}
+.landscape_33_full{background: url(../portfolio/images/landscape/landscape_33_thumb.jpg) center;}
+.landscape_34_full{background: url(../portfolio/images/landscape/landscape_34_thumb.jpg) center;}
+.landscape_35_full{background: url(../portfolio/images/landscape/landscape_35_thumb.jpg) center;}
+.landscape_36_full{background: url(../portfolio/images/landscape/landscape_36_thumb.jpg) center;}
+.landscape_37_full{background: url(../portfolio/images/landscape/landscape_37_thumb.jpg) center;}
+.landscape_38_full{background: url(../portfolio/images/landscape/landscape_38_thumb.jpg) center;}
+.landscape_39_full{background: url(../portfolio/images/landscape/landscape_39_thumb.jpg) center;}
+.landscape_40_full{background: url(../portfolio/images/landscape/landscape_40_thumb.jpg) center;}
+
+/**
+*** Landscape Portfolio Thumbnail Images
+***
+*** Description ------ Pre Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.landscape_01_full,.landscape_02_full,.landscape_03_full,.landscape_04_full,
+.landscape_05_full,.landscape_06_full,.landscape_07_full,.landscape_08_full,
+.landscape_09_full,.landscape_10_full,.landscape_11_full,.landscape_12_full,
+.landscape_13_full,.landscape_14_full,.landscape_15_full,.landscape_16_full,
+.landscape_17_full,.landscape_18_full,.landscape_19_full,.landscape_20_full,
+.landscape_21_full,.landscape_22_full,.landscape_23_full,.landscape_24_full,
+.landscape_25_full,.landscape_26_full,.landscape_27_full,.landscape_28_full,
+.landscape_29_full,.landscape_30_full,.landscape_31_full,.landscape_32_full,
+.landscape_33_full,.landscape_34_full,.landscape_35_full,.landscape_36_full,
+.landscape_37_full,.landscape_38_full,.landscape_39_full,.landscape_40_full {
+    background-size: 170% !important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out; 
+}
+
+/**
+*** Landscape Portfolio Thumbnail Images
+***
+*** Description ------ Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.landscape_01_full:hover,.landscape_02_full:hover,.landscape_03_full:hover,.landscape_04_full:hover,
+.landscape_05_full:hover,.landscape_06_full:hover,.landscape_07_full:hover,.landscape_08_full:hover,
+.landscape_09_full:hover,.landscape_10_full:hover,.landscape_11_full:hover,.landscape_12_full:hover,
+.landscape_13_full:hover,.landscape_14_full:hover,.landscape_15_full:hover,.landscape_16_full:hover,
+.landscape_17_full:hover,.landscape_18_full:hover,.landscape_19_full:hover,.landscape_20_full:hover,
+.landscape_21_full:hover,.landscape_22_full:hover,.landscape_23_full:hover,.landscape_24_full:hover,
+.landscape_25_full:hover,.landscape_26_full:hover,.landscape_27_full:hover,.landscape_28_full:hover,
+.landscape_29_full:hover,.landscape_30_full:hover,.landscape_31_full:hover,.landscape_32_full:hover,
+.landscape_33_full:hover,.landscape_34_full:hover,.landscape_35_full:hover,.landscape_36_full:hover,
+.landscape_37_full:hover,.landscape_38_full:hover,.landscape_39_full:hover,.landscape_40_full:hover {
+    background-size: 185%!important;
+    -webkit-transition: .4s ease-in;
+    transition: .4s ease-out; 
+}
+
 
 
 

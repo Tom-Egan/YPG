@@ -106,7 +106,7 @@
 
                 <!-- Landscape Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-landscape" title="" alt="">
+                    <a href="portfolio/landscape" title="" alt="">
                         <div class="portfolio-zoom1 landscape-main">
                             <div class="servicebox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -117,7 +117,7 @@
 
                 <!-- Landscape "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-landscape"> View More </a>
+                    <a href="portfolio/landscape"> View More </a>
                 </div>
             </div>
         </div> <!--/ end row 1 -->
