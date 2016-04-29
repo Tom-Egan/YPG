@@ -1756,7 +1756,7 @@ position: relative !important;
     color: #5C804E;
 }
 
-.tree-thumb01:hover, .tree-thumb02:hover, .tree-thumb03:hover, .tree-thumb04:hover, .tree-thumb05:hover,.tree-thumb06:hover, .tree-thumb07:hover, .tree-thumb08:hover,
+.tree_service_01_full:hover,.tree-thumb01:hover, .tree-thumb02:hover, .tree-thumb03:hover, .tree-thumb04:hover, .tree-thumb05:hover,.tree-thumb06:hover, .tree-thumb07:hover, .tree-thumb08:hover,
 .tree-thumb09:hover, .tree-thumb10:hover, .tree-thumb11:hover, .tree-thumb12:hover, .tree-thumb13:hover,.tree-thumb14:hover, .tree-thumb15:hover, .tree-thumb16:hover,
 .tree-thumb17:hover, .tree-thumb18:hover, .tree-thumb19:hover, .tree-thumb20:hover, .tree-thumb21:hover,.tree-thumb22:hover, .tree-thumb23:hover, .tree-thumb24:hover,
 .tree-thumb25:hover, .tree-thumb26:hover, .tree-thumb27:hover, .tree-thumb28:hover, .tree-thumb29:hover,.tree-thumb30:hover, .tree-thumb31:hover, .tree-thumb32:hover,
@@ -1773,7 +1773,7 @@ position: relative !important;
     -webkit-transition: .4s ease-out;
     transition: .4s ease-out;
 }
-.tree-thumb01, .tree-thumb02, .tree-thumb03, .tree-thumb04, .tree-thumb05,.tree-thumb06, .tree-thumb07, .tree-thumb08,
+.tree_service_01_full,.tree-thumb01, .tree-thumb02, .tree-thumb03, .tree-thumb04, .tree-thumb05,.tree-thumb06, .tree-thumb07, .tree-thumb08,
 .tree-thumb09, .tree-thumb10, .tree-thumb11, .tree-thumb12, .tree-thumb13,.tree-thumb14, .tree-thumb15, .tree-thumb16,
 .tree-thumb17, .tree-thumb18, .tree-thumb19, .tree-thumb20, .tree-thumb21,.tree-thumb22, .tree-thumb23, .tree-thumb24,
 .tree-thumb25, .tree-thumb26, .tree-thumb27, .tree-thumb28, .tree-thumb29,.tree-thumb30, .tree-thumb31, .tree-thumb32,
@@ -1899,6 +1899,13 @@ position: relative !important;
 .mat-delivery-thumb02 {background: url(../portfolio/images/material_delivery/mat_delivery_02_thumb.jpg) center;}
 .mat-delivery-thumb03 {background: url(../portfolio/images/material_delivery/mat_delivery_03_thumb.jpg) center;}
  
+
+ /* xml css test*/
+.tree_service_01_full {background: url(../portfolio/images/tree_service/tree_service_01_thumb.jpg) center;}
+.tree_service_02_full {background: url(../portfolio/images/tree_service/tree_service_02_thumb.jpg) center;}
+.tree_service_03_full {background: url(../portfolio/images/tree_service/tree_service_03_thumb.jpg) center;}
+.tree_service_04_full {background: url(../portfolio/images/tree_service/tree_service_04_thumb.jpg) center;}
+.tree_service_05_full {background: url(../portfolio/images/tree_service/tree_service_05_thumb.jpg) center;}
 
 .tree-port02 {
     background: url(../images/tree_firewood/tree02.jpg) center;
