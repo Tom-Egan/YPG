@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<landscape_images>
+
+	<!-- row 1 -->
+	<landscape_image>
+		<img>landscape_01_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_02_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_03_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_04_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+
+	<!-- row 2 -->
+	<landscape_image>
+		<img>landscape_05_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_06_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_07_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_08_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+
+	<!-- row 3 -->
+	<landscape_image>
+		<img>landscape_09_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_10_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_11_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_12_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+
+	<!-- row 4 -->
+	<landscape_image>
+		<img>landscape_13_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_14_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_15_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_16_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+
+	<!-- row 5 -->
+	<landscape_image>
+		<img>landscape_17_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_18_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_19_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_20_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+
+	<!-- row 5 -->
+	<landscape_image>
+		<img>landscape_21_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_22_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_23_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_24_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+
+	<!-- row 6 -->
+	<landscape_image>
+		<img>landscape_25_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_26_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_27_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_28_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+
+	<!-- row 7 -->
+	<landscape_image>
+		<img>landscape_29_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_30_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_31_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_32_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+
+	<!-- row 8 -->
+	<landscape_image>
+		<img>landscape_33_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_34_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_35_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_36_full</img>
+		<alt>landscape</alt>
+	</landscape_image>
+
+	<!-- row 9 -->
+	<landscape_image>
+		<img>landscape_37_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_38_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_39_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+	<landscape_image>
+		<img>landscape_40_full</img>
+		<alt> landscape</alt>
+	</landscape_image>
+
+</landscape_images>

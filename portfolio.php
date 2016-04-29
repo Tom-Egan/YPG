@@ -80,7 +80,7 @@
 
                 <!-- Featured Property Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-featured-property" title="" alt="">
+                    <a href="portfolio/featured-property" title="" alt="">
                         <div class="portfolio-zoom1 featured-prop-main">
                             <div class="servicebox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -91,7 +91,7 @@
 
                 <!-- FEATURED PROPERTY "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-featured-property"> View More </a>
+                    <a href="portfolio/featured-property"> View More </a>
                 </div>
             </div>
 
@@ -106,7 +106,7 @@
 
                 <!-- Landscape Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-landscape" title="" alt="">
+                    <a href="portfolio/landscape" title="" alt="">
                         <div class="portfolio-zoom1 landscape-main">
                             <div class="servicebox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -117,7 +117,7 @@
 
                 <!-- Landscape "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-landscape"> View More </a>
+                    <a href="portfolio/landscape"> View More </a>
                 </div>
             </div>
         </div> <!--/ end row 1 -->
@@ -184,7 +184,7 @@
 
                 <!-- Landscape Design Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-landscape-design" title="" alt="">
+                    <a href="portfolio/landscape-design" title="" alt="">
                         <div class="portfolio-zoom1 landscape-design-main">
                             <div class="servicebox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -195,7 +195,7 @@
 
                 <!-- Landscape Design "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-landscape-design"> View More </a>
+                    <a href="portfolio/landscape-design"> View More </a>
                 </div>
             </div>
 

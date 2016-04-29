@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<featured_images>
+
+	<!-- row 1 -->
+	<featured_image>
+		<img>featured_01_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_02_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_03_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_04_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+
+	<!-- row 2 -->
+	<featured_image>
+		<img>featured_05_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_06_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_07_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_08_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+
+	<!-- row 3 -->
+	<featured_image>
+		<img>featured_09_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_10_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_11_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_12_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+
+	<!-- row 4 -->
+	<featured_image>
+		<img>featured_13_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_14_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_15_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_16_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+
+	<!-- row 5 -->
+	<featured_image>
+		<img>featured_17_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_18_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_19_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_20_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+
+	<!-- row 6 -->
+	<featured_image>
+		<img>featured_21_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+	<featured_image>
+		<img>featured_22_full</img>
+		<alt>landscape featured property</alt>
+	</featured_image>
+
+</featured_images>
