@@ -3429,6 +3429,138 @@ button {
     transition: .4s ease-out; 
 }
 
+/**
+*** Hardscape Portfolio Thumbnail Images 
+***
+*** Modified --------- 28 April 2016
+*** Description ------ sets bg image to thumbnail boxes
+*** Generated from --- xml/portfolio_hardscape.xml 
+*** Applied to ------- portfolio/hardscape.php
+**/
+.hardscape_01_full{background: url(../portfolio/images/hardscape/hardscape_01_thumb.jpg) center;}
+.hardscape_02_full{background: url(../portfolio/images/hardscape/hardscape_02_thumb.jpg) center;}
+.hardscape_03_full{background: url(../portfolio/images/hardscape/hardscape_03_thumb.jpg) center;}
+.hardscape_04_full{background: url(../portfolio/images/hardscape/hardscape_04_thumb.jpg) center;}
+.hardscape_05_full{background: url(../portfolio/images/hardscape/hardscape_05_thumb.jpg) center;}
+.hardscape_06_full{background: url(../portfolio/images/hardscape/hardscape_06_thumb.jpg) center;}
+.hardscape_07_full{background: url(../portfolio/images/hardscape/hardscape_07_thumb.jpg) center;}
+.hardscape_08_full{background: url(../portfolio/images/hardscape/hardscape_08_thumb.jpg) center;}
+.hardscape_09_full{background: url(../portfolio/images/hardscape/hardscape_09_thumb.jpg) center;}
+.hardscape_10_full{background: url(../portfolio/images/hardscape/hardscape_10_thumb.jpg) center;}
+.hardscape_11_full{background: url(../portfolio/images/hardscape/hardscape_11_thumb.jpg) center;}
+.hardscape_12_full{background: url(../portfolio/images/hardscape/hardscape_12_thumb.jpg) center;}
+.hardscape_13_full{background: url(../portfolio/images/hardscape/hardscape_13_thumb.jpg) center;}
+.hardscape_14_full{background: url(../portfolio/images/hardscape/hardscape_14_thumb.jpg) center;}
+.hardscape_15_full{background: url(../portfolio/images/hardscape/hardscape_15_thumb.jpg) center;}
+.hardscape_16_full{background: url(../portfolio/images/hardscape/hardscape_16_thumb.jpg) center;}
+.hardscape_17_full{background: url(../portfolio/images/hardscape/hardscape_17_thumb.jpg) center;}
+.hardscape_18_full{background: url(../portfolio/images/hardscape/hardscape_18_thumb.jpg) center;}
+.hardscape_19_full{background: url(../portfolio/images/hardscape/hardscape_19_thumb.jpg) center;}
+.hardscape_20_full{background: url(../portfolio/images/hardscape/hardscape_20_thumb.jpg) center;}
+.hardscape_21_full{background: url(../portfolio/images/hardscape/hardscape_21_thumb.jpg) center;}
+.hardscape_22_full{background: url(../portfolio/images/hardscape/hardscape_22_thumb.jpg) center;}
+.hardscape_23_full{background: url(../portfolio/images/hardscape/hardscape_23_thumb.jpg) center;}
+.hardscape_24_full{background: url(../portfolio/images/hardscape/hardscape_24_thumb.jpg) center;}
+.hardscape_25_full{background: url(../portfolio/images/hardscape/hardscape_25_thumb.jpg) center;}
+.hardscape_26_full{background: url(../portfolio/images/hardscape/hardscape_26_thumb.jpg) center;}
+.hardscape_27_full{background: url(../portfolio/images/hardscape/hardscape_27_thumb.jpg) center;}
+
+/**
+*** Hardscape Portfolio Thumbnail Images 
+***
+*** Description ------ Pre Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.hardscape_01_full,.hardscape_02_full,.hardscape_03_full,.hardscape_04_full,.hardscape_05_full,
+.hardscape_06_full,.hardscape_07_full,.hardscape_08_full,.hardscape_09_full,.hardscape_10_full,
+.hardscape_11_full,.hardscape_12_full,.hardscape_13_full,.hardscape_14_full,.hardscape_15_full,
+.hardscape_16_full,.hardscape_17_full,.hardscape_18_full,.hardscape_19_full,.hardscape_20_full,
+.hardscape_21_full,.hardscape_22_full,.hardscape_23_full,.hardscape_24_full,.hardscape_25_full,
+.hardscape_26_full,.hardscape_27_full {
+    background-size: 170% !important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+/**
+*** Hardscape Portfolio Thumbnail Images 
+***
+*** Description ------ Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.hardscape_01_full:hover,.hardscape_02_full:hover,.hardscape_03_full:hover,.hardscape_04_full:hover,.hardscape_05_full:hover,
+.hardscape_06_full:hover,.hardscape_07_full:hover,.hardscape_08_full:hover,.hardscape_09_full:hover,.hardscape_10_full:hover,
+.hardscape_11_full:hover,.hardscape_12_full:hover,.hardscape_13_full:hover,.hardscape_14_full:hover,.hardscape_15_full:hover,
+.hardscape_16_full:hover,.hardscape_17_full:hover,.hardscape_18_full:hover,.hardscape_19_full:hover,.hardscape_20_full:hover,
+.hardscape_21_full:hover,.hardscape_22_full:hover,.hardscape_23_full:hover,.hardscape_24_full:hover,.hardscape_25_full:hover,
+.hardscape_26_full:hover,.hardscape_27_full:hover  {
+    background-size: 185%!important;
+    -webkit-transition: .4s ease-in;
+    transition: .4s ease-out; 
+}
+
+/**
+*** Lawn Portfolio Thumbnail Images 
+***
+*** Modified --------- 28 April 2016
+*** Description ------ sets bg image to thumbnail boxes
+*** Generated from --- xml/portfolio_lawn.xml 
+*** Applied to ------- portfolio/lawn.php
+**/
+.lawn_01_full{background: url(../portfolio/images/lawn/lawn_01_thumb.jpg) center;}
+.lawn_02_full{background: url(../portfolio/images/lawn/lawn_02_thumb.jpg) center;}
+.lawn_03_full{background: url(../portfolio/images/lawn/lawn_03_thumb.jpg) center;}
+.lawn_04_full{background: url(../portfolio/images/lawn/lawn_04_thumb.jpg) center;}
+.lawn_05_full{background: url(../portfolio/images/lawn/lawn_05_thumb.jpg) center;}
+.lawn_06_full{background: url(../portfolio/images/lawn/lawn_06_thumb.jpg) center;}
+.lawn_07_full{background: url(../portfolio/images/lawn/lawn_07_thumb.jpg) center;}
+.lawn_08_full{background: url(../portfolio/images/lawn/lawn_08_thumb.jpg) center;}
+.lawn_09_full{background: url(../portfolio/images/lawn/lawn_09_thumb.jpg) center;}
+.lawn_10_full{background: url(../portfolio/images/lawn/lawn_10_thumb.jpg) center;}
+.lawn_11_full{background: url(../portfolio/images/lawn/lawn_11_thumb.jpg) center;}
+.lawn_12_full{background: url(../portfolio/images/lawn/lawn_12_thumb.jpg) center;}
+.lawn_13_full{background: url(../portfolio/images/lawn/lawn_13_thumb.jpg) center;}
+.lawn_14_full{background: url(../portfolio/images/lawn/lawn_14_thumb.jpg) center;}
+.lawn_15_full{background: url(../portfolio/images/lawn/lawn_15_thumb.jpg) center;}
+.lawn_16_full{background: url(../portfolio/images/lawn/lawn_16_thumb.jpg) center;}
+.lawn_17_full{background: url(../portfolio/images/lawn/lawn_17_thumb.jpg) center;}
+.lawn_18_full{background: url(../portfolio/images/lawn/lawn_18_thumb.jpg) center;}
+.lawn_19_full{background: url(../portfolio/images/lawn/lawn_19_thumb.jpg) center;}
+.lawn_20_full{background: url(../portfolio/images/lawn/lawn_20_thumb.jpg) center;}
+.lawn_21_full{background: url(../portfolio/images/lawn/lawn_21_thumb.jpg) center;}
+.lawn_22_full{background: url(../portfolio/images/lawn/lawn_22_thumb.jpg) center;}
+
+
+/**
+*** Lawn Portfolio Thumbnail Images 
+***
+*** Description ------ Pre Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.lawn_01_full,.lawn_02_full,.lawn_03_full,.lawn_04_full,.lawn_05_full,.lawn_06_full,
+.lawn_07_full,.lawn_08_full,.lawn_09_full,.lawn_10_full,.lawn_11_full,.lawn_12_full,
+.lawn_13_full,.lawn_14_full,.lawn_15_full,.lawn_16_full,.lawn_17_full,.lawn_18_full,
+.lawn_19_full,.lawn_20_full,.lawn_21_full,.lawn_22_full {
+    background-size: 170% !important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+/**
+*** Lawn Portfolio Thumbnail Images 
+***
+*** Description ------ Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.lawn_01_full:hover,.lawn_02_full:hover,.lawn_03_full:hover,.lawn_04_full:hover,.lawn_05_full:hover,.lawn_06_full:hover,
+.lawn_07_full:hover,.lawn_08_full:hover,.lawn_09_full:hover,.lawn_10_full:hover,.lawn_11_full:hover,.lawn_12_full:hover,
+.lawn_13_full:hover,.lawn_14_full:hover,.lawn_15_full:hover,.lawn_16_full:hover,.lawn_17_full:hover,.lawn_18_full:hover,
+.lawn_19_full:hover,.lawn_20_full:hover,.lawn_21_full:hover,.lawn_22_full:hover {
+    background-size: 185%!important;
+    -webkit-transition: .4s ease-in;
+    transition: .4s ease-out; 
+}
+
 
 
 

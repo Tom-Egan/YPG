@@ -158,7 +158,7 @@
 
                 <!-- Hardscape Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-hardscape" title="" alt="">
+                    <a href="portfolio/hardscape" title="" alt="">
                         <div class="portfolio-zoom1 hardscape-main">
                             <div class="servicebox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -169,7 +169,7 @@
 
                 <!-- Hardscape "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-hardscape"> View More </a>
+                    <a href="portfolio/hardscape"> View More </a>
                 </div>
             </div>
         </div> <!--/ end row 2 -->
@@ -205,12 +205,12 @@
             <!-- Lawn & Turf -->
             <div class="col-md-5 subpage-text port-main-fix2">
                 <br><br><br>
-                <h2>Lawn & Turf</h2>
+                <h2>Lawn &amp; Turf</h2>
                 <div class="subpage-heading-border"></div>
 
                 <!-- Lawn & Turf Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-lawn-turf" title="" alt="">
+                    <a href="portfolio/lawn" title="" alt="">
                         <div class="portfolio-zoom1 lawn-main">
                             <div class="servicebox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -221,7 +221,7 @@
 
                 <!-- Lawn & Turf "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-lawn-turf"> View More </a>
+                    <a href="portfolio/lawn"> View More </a>
                 </div>
             </div>
         </div> <!--/ end row 3 -->
