@@ -184,7 +184,7 @@
 
                 <!-- Landscape Design Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-landscape-design" title="" alt="">
+                    <a href="portfolio/landscape-design" title="" alt="">
                         <div class="portfolio-zoom1 landscape-design-main">
                             <div class="servicebox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -195,7 +195,7 @@
 
                 <!-- Landscape Design "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-landscape-design"> View More </a>
+                    <a href="portfolio/landscape-design"> View More </a>
                 </div>
             </div>
 

@@ -12,7 +12,7 @@
 
       Dependencies:
       - - css/lightbox.css
-      - - xml/portfolio_landscape.xml
+      - - xml/portfolio_landscape_design.xml
       - - includes/header_navbar.php
       - - includes/footer_links_portfolio.php
       - - includes/footer_lightbox.php.php
@@ -20,7 +20,7 @@
 -->
 
 <head>
-    <title>Landscape &amp; Garden Install Portfolio | Your Personal Gardener</title>
+    <title>Landscape Design Portfolio | Your Personal Gardener</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.65, maximum-scale=0.65">
@@ -74,7 +74,7 @@
         <div class="row">
             <!-- page title -->
             <div class="col-md-6">
-                <h1 class="page-title portfolio-title-fix "><span class="accent">Landscape</span></h1>
+                <h1 class="page-title portfolio-title-fix "><span class="accent">Landscape Design</span></h1>
                 <!-- page title underline -->
                 <div class="subpage-underline"></div>
                 <br><br>
@@ -97,7 +97,7 @@
         -->
             <?php
                 // load XML file containing image filenames
-                $xml=simplexml_load_file("../xml/portfolio_landscape.xml") or die("XML Error: Cannot create object");
+                $xml=simplexml_load_file("../xml/portfolio_landscape_design.xml") or die("XML Error: Cannot create object");
 
                 // for loop to parse through XML data and pull image paths
                 foreach ($xml as $imgPath):
@@ -110,7 +110,7 @@
                     // [+1 div] Create container div for nested structure
                     echo "<div class='col-md-3 servicebox'>";
                     // [+2] open anchor => link to lightbox image
-                    echo "<a href='images/landscape/",$image_name,".jpg' data-lightbox='landscape-main' title='' alt='",$alt,"'>";
+                    echo "<a href='images/landscape_design/",$image_name,".jpg' data-lightbox='landscapedesign--main' title='' alt='",$alt,"'>";
                     // [+3] open div => XML data turned into CSS class name, uses image name as bg image
                     echo "<div class='portfolio-zoom ",$image_name,"'>";
                     // [+4] open div => hover effect + icon

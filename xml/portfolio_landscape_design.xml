@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<design_images>
+
+	<!-- row 1 -->
+	<design_image>
+		<img>land_design_01_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_02_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_03_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_04_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+
+	<!-- row 2 -->
+	<design_image>
+		<img>land_design_05_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_06_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_07_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_08_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+
+	<!-- row 3 -->
+	<design_image>
+		<img>land_design_09_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_10_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_11_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_12_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+
+	<!-- row 4 -->
+	<design_image>
+		<img>land_design_13_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_14_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_15_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_16_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+
+	<!-- row 5 -->
+	<design_image>
+		<img>land_design_17_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_18_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_19_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+	<design_image>
+		<img>land_design_20_full</img>
+		<alt>landscape design</alt>
+	</design_image>
+
+</design_images>

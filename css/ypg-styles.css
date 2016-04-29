@@ -3653,6 +3653,65 @@ button {
 }
 
 
+/**
+*** Landscape Design Portfolio Thumbnail Images 
+***
+*** Modified --------- 28 April 2016
+*** Description ------ sets bg image to thumbnail boxes
+*** Generated from --- xml/portfolio_landscape_design.xml 
+*** Applied to ------- portfolio/landscape-design.php
+**/
+.land_design_01_full{background: url(../portfolio/images/landscape_design/land_design_01_thumb.jpg) center;}
+.land_design_02_full{background: url(../portfolio/images/landscape_design/land_design_02_thumb.jpg) center;}
+.land_design_03_full{background: url(../portfolio/images/landscape_design/land_design_03_thumb.jpg) center;}
+.land_design_04_full{background: url(../portfolio/images/landscape_design/land_design_04_thumb.jpg) center;}
+.land_design_05_full{background: url(../portfolio/images/landscape_design/land_design_05_thumb.jpg) center;}
+.land_design_06_full{background: url(../portfolio/images/landscape_design/land_design_06_thumb.jpg) center;}
+.land_design_07_full{background: url(../portfolio/images/landscape_design/land_design_07_thumb.jpg) center;}
+.land_design_08_full{background: url(../portfolio/images/landscape_design/land_design_08_thumb.jpg) center;}
+.land_design_09_full{background: url(../portfolio/images/landscape_design/land_design_09_thumb.jpg) center;}
+.land_design_10_full{background: url(../portfolio/images/landscape_design/land_design_10_thumb.jpg) center;}
+.land_design_11_full{background: url(../portfolio/images/landscape_design/land_design_11_thumb.jpg) center;}
+.land_design_12_full{background: url(../portfolio/images/landscape_design/land_design_12_thumb.jpg) center;}
+.land_design_13_full{background: url(../portfolio/images/landscape_design/land_design_13_thumb.jpg) center;}
+.land_design_14_full{background: url(../portfolio/images/landscape_design/land_design_14_thumb.jpg) center;}
+.land_design_15_full{background: url(../portfolio/images/landscape_design/land_design_15_thumb.jpg) center;}
+.land_design_16_full{background: url(../portfolio/images/landscape_design/land_design_16_thumb.jpg) center;}
+.land_design_17_full{background: url(../portfolio/images/landscape_design/land_design_17_thumb.jpg) center;}
+.land_design_18_full{background: url(../portfolio/images/landscape_design/land_design_18_thumb.jpg) center;}
+.land_design_19_full{background: url(../portfolio/images/landscape_design/land_design_19_thumb.jpg) center;}
+.land_design_20_full{background: url(../portfolio/images/landscape_design/land_design_20_thumb.jpg) center;}
+
+/**
+*** Landscape Design Portfolio Thumbnail Images 
+***
+*** Description ------ Pre Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.land_design_01_full,.land_design_02_full,.land_design_03_full,.land_design_04_full,.land_design_05_full,.land_design_06_full,
+.land_design_07_full,.land_design_08_full,.land_design_09_full,.land_design_10_full,.land_design_11_full,.land_design_12_full,
+.land_design_13_full,.land_design_14_full,.land_design_15_full,.land_design_16_full,.land_design_17_full,.land_design_18_full,
+.land_design_19_full,.land_design_20_full {
+    background-size: 200% !important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+/**
+*** Landscape Design Portfolio Thumbnail Images 
+***
+*** Description ------ Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.land_design_01_full:hover,.land_design_02_full:hover,.land_design_03_full:hover,.land_design_04_full:hover,.land_design_05_full:hover,.land_design_06_full:hover,
+.land_design_07_full:hover,.land_design_08_full:hover,.land_design_09_full:hover,.land_design_10_full:hover,.land_design_11_full:hover,.land_design_12_full:hover,
+.land_design_13_full:hover,.land_design_14_full:hover,.land_design_15_full:hover,.land_design_16_full:hover,.land_design_17_full:hover,.land_design_18_full:hover,
+.land_design_19_full:hover,.land_design_20_full:hover {
+    background-size: 220%!important;
+    -webkit-transition: .4s ease-in;
+    transition: .4s ease-out; 
+}
+
 
 
 
