@@ -8,12 +8,14 @@
 
       Developer: Tom Egan (tom-egan.com)
       Created: May 2014
-      Last Modified: 24 April 2016
+      Last Modified: 28 April 2016
 
       Dependencies:
+      - - css/lightbox.css
+      - - xml/portfolio_delivery.xml
       - - includes/header_navbar.php
-      - - includes/footer_links.php
-      - - includes/footer_awards.php
+      - - includes/footer_links_portfolio.php
+      - - includes/footer_lightbox.php.php
 
 -->
 
@@ -57,7 +59,7 @@
 <?php include '../includes/header_navbar_portfolio.php'; ?>
 
 <!-- [PAGE TITLE] -->
-<div class="container-fluid subpage-header concrete-header">
+<div class="container-fluid subpage-header delivery-header">
     <div class="container subpage-title-fix">
         <!-- [H1] -->
         <h1 class="page-title subpage-title ">Portfolio</h1>
@@ -70,241 +72,63 @@
     <div class="container subpage-body">
         <!-- [TITLE] -->
         <div class="row">
+            <!-- page title -->
             <div class="col-md-6">
                 <h1 class="page-title portfolio-title-fix "><span class="accent">Material Delivery</span></h1>
                 <!-- page title underline -->
                 <div class="subpage-underline"></div>
                 <br><br>
             </div>
+            <!-- return to portfolio link -->
             <div class="col-md-6 return-port">
                 <a href="../portfolio.php">Return to Portfolio</a>
             </div>
         </div> <!--/end row 1 -->
 
-        <!-- start material delivery images -->
-        <!-- [ROW 1] -->
+        <!-- [GRID] -->
         <div class="row">
-            <!-- [DELIVERY 01] -->
-            <div class="col-md-3 servicebox">
-                <a href="images/material_delivery/mat_delivery_01_full.jpg" data-lightbox="delivery-main" title="">
-                <!-- thumbnail holder -->
-                <div class="portfolio-zoom mat-delivery-thumb01">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div> <!-- end of [DELIVERY 01] -->
+        <!-- 
 
-            <!-- [DELIVERY 02] -->
-            <div class="col-md-3 servicebox">
-                <a href="images/material_delivery/mat_delivery_02_full.jpg" data-lightbox="delivery-main" title="">
-                <!-- thumbnail holder -->
-                <div class="portfolio-zoom mat-delivery-thumb02">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div> <!-- end of [DELIVERY 02] -->
+            [1] Start XML-PHP Parser to dynamically generate grid 
+            [2] Image file names stored in XML file 
+            [3] Runs a for loop and generates a new 'col-md-3' (container div) each pass
+            [4] Data pulled from XML, placed into link paths and css class names of nested div struct
 
-            <!-- [DELIVERY 03] -->
-            <div class="col-md-3 servicebox">
-                <a href="images/material_delivery/mat_delivery_03_full.jpg" data-lightbox="delivery-main" title="">
-                <!-- thumbnail holder -->
-                <div class="portfolio-zoom mat-delivery-thumb03">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div> <!-- end of [DELIVERY 03] -->
+        -->
+            <?php
+                // load XML file containing image filenames
+                $xml=simplexml_load_file("../xml/portfolio_delivery.xml") or die("XML Error: Cannot create object");
 
-            <!-- [DELIVERY 04] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material01.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port01">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
+                // for loop to parse through XML data and pull image paths
+                foreach ($xml as $imgPath):
 
-        </div> <!--  end of [ROW 1] -->
+                    // Assign variable $image_name to XML <img> attribute (image file name)
+                    $image_name=$imgPath->img;
+                    // Assign variable $alt to XML <alt> attribute (image alt text)
+                    $alt=$imgPath->alt;
 
-        <!-- [ROW 2] -->
-        <div class="row">
-            
-            <!-- [DELIVERY 05] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material02.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port02">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 06] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material03.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port03">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 07] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material04.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port04">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 08] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material05.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port05">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-        </div> <!--  end of [ROW 2] -->
-
-        <!-- [ROW 3] -->
-        <div class="row">
-            
-            <!-- [DELIVERY 09] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material06.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port06">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 10] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material07.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port07">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 11] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material08.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port08">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 12] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material09.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port09">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-
-        </div> <!--  end of [ROW 3] -->
-
-        <!-- [ROW 4] -->
-        <div class="row">
-            
-            <!-- [DELIVERY 13] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material10.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port10">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 14] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material11.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port11">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 15] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material12.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port12">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 16] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material13.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port13">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-
-        </div> <!--  end of [ROW 4] -->
-
-        <!-- [ROW 5] -->
-        <div class="row">
-            
-            <!-- [DELIVERY 17] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material14.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port14">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 18] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material15.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port15">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <!-- [DELIVERY 19] -->
-            <div class="col-md-3 servicebox">
-                <a href="../images/material/material16.jpg" data-lightbox="delivery-main" title="">
-                <div class="portfolio-zoom material-port16">
-                    <div class="servicebox-hover">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </div>
-                </div>
-                </a>
-            </div>
-        </div> <!--  end of [ROW 5] -->
-
+                    // [+1 div] Create container div for nested structure
+                    echo "<div class='col-md-3 servicebox'>";
+                    // [+2] open anchor => link to lightbox image
+                    echo "<a href='images/material_delivery/",$image_name,".jpg' data-lightbox='delivery-main' title='' alt='",$alt,"'>";
+                    // [+3] open div => XML data turned into CSS class name, uses image name as bg image
+                    echo "<div class='portfolio-zoom ",$image_name,"'>";
+                    // [+4] open div => hover effect + icon
+                    echo "<div class='servicebox-hover'>";
+                    // hover effect => magnifying glass icon
+                    echo "<span class='glyphicon glyphicon-search'></span>";
+                    // [-4] end of hover effect div
+                    echo "</div>";
+                    // [-3] end of inner div
+                    echo "</div>";
+                    // [-2] end of link
+                     echo "</a>";
+                    // [-1] end of col-md-3
+                    echo "</div>";
+                // end of for loop
+                endforeach;
+            ?>
+        </div> <!--  end of [GRID] -->
     </div> <!--  end of [CONTAINER] -->
 </div> <!-- end of [FULL CONTAINER] -->
  

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<delivery_images>
+
+	<!-- row 1 -->
+	<delivery_image>
+		<img>mat_delivery_01_full</img>
+		<alt>material delivery - boulder</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_02_full</img>
+		<alt>material delivery - boulder</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_03_full</img>
+		<alt>material delivery - boulder</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_04_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+
+	<!-- row 2 -->
+	<delivery_image>
+		<img>mat_delivery_05_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_06_full</img>
+		<alt>material delivery - mulch</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_07_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_08_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+
+	<!-- row 3 -->
+	<delivery_image>
+		<img>mat_delivery_09_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_10_full</img>
+		<alt>material delivery - compost</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_11_full</img>
+		<alt>material delivery - firewood splitting</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_12_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+
+	<!-- row 4 -->
+	<delivery_image>
+		<img>mat_delivery_13_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_14_full</img>
+		<alt>material delivery - firewood seasoning</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_15_full</img>
+		<alt>material delivery - mulch</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_16_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+
+	<!-- row 5 -->
+	<delivery_image>
+		<img>mat_delivery_17_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_18_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+	<delivery_image>
+		<img>mat_delivery_19_full</img>
+		<alt>material delivery - firewood</alt>
+	</delivery_image>
+
+</delivery_images>

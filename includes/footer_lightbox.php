@@ -95,9 +95,9 @@
 	<!-- Import jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<!-- Import Bootstrap JavaScript -->
-	<script src="../includes/js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 	<!-- Lightbox -->
-	<script src="../includes/js/lightbox.min.js"></script>
+	<script src="../js/lightbox.min.js"></script>
 
 </body>
 </html>
