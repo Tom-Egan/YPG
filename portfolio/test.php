@@ -76,31 +76,34 @@
         </div> <!--/end row 1 -->
 
         <!-- [GRID] -->
-        <div class="col-row">
+        <div class="row">
         <!-- 
 
             [1] Start XML-PHP Parser to dynamically generate grid 
             [2] Image file names stored in XML file 
             [3] Runs a for loop and generates a new 'col-md-3' (container div) each pass
             [4] Data pulled from XML, placed into link paths and css class names of nested div struct
-        
-        -->
 
+        -->
             <?php
                 // load XML file containing image filenames
                 $xml=simplexml_load_file("data.xml") or die("XML Error: Cannot create object");
 
                 // for loop to parse through XML data and pull image paths
                 foreach ($xml as $imgPath):
-                    // Assign variable $image_name to XML <img> attribute
+
+                    // Assign variable $image_name to XML <img> attribute (image file name)
                     $image_name=$imgPath->img;
+                    // Assign variable $alt to XML <alt> attribute (image alt text)
+                    $alt=$imgPath->alt;
+
                     // [+1 div] Create container div for nested structure
                     echo "<div class='col-md-3 servicebox'>";
-                    // [+2] anchor link to lightbox image
-                    echo "<a href='images/tree_service/",$image_name,".jpg' data-lightbox='delivery-main' title=''>";
-                    // [+3] XML data turned into CSS class name, uses image name as bg image
+                    // [+2] open anchor => link to lightbox image
+                    echo "<a href='images/tree_service/",$image_name,".jpg' data-lightbox='delivery-main' title='' alt='",$alt,"'>";
+                    // [+3] open div => XML data turned into CSS class name, uses image name as bg image
                     echo "<div class='portfolio-zoom ",$image_name,"'>";
-                    // [+4] div for hover effect + icon
+                    // [+4] open div => hover effect + icon
                     echo "<div class='servicebox-hover'>";
                     // hover effect => magnifying glass icon
                     echo "<span class='glyphicon glyphicon-search'></span>";
