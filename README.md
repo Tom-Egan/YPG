@@ -3,6 +3,7 @@
 - Website backup repo
 - Handcoded small business website
 - Mukwonago, Wisconsin landscape company
+- XML-PHP parser used to dynamically generate responsive image grids
 
 ---
 
