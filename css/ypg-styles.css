@@ -3712,6 +3712,66 @@ button {
     transition: .4s ease-out; 
 }
 
+/**
+*** Featured Property Portfolio Thumbnail Images 
+***
+*** Modified --------- 28 April 2016
+*** Description ------ sets bg image to thumbnail boxes
+*** Generated from --- xml/portfolio_featured_property.xml 
+*** Applied to ------- portfolio/featured-property.php
+**/
+.featured_01_full{background: url(../portfolio/images/featured_property/featured_01_thumb.jpg) center;}
+.featured_02_full{background: url(../portfolio/images/featured_property/featured_02_thumb.jpg) center;}
+.featured_03_full{background: url(../portfolio/images/featured_property/featured_03_thumb.jpg) center;}
+.featured_04_full{background: url(../portfolio/images/featured_property/featured_04_thumb.jpg) center;}
+.featured_05_full{background: url(../portfolio/images/featured_property/featured_05_thumb.jpg) center;}
+.featured_06_full{background: url(../portfolio/images/featured_property/featured_06_thumb.jpg) center;}
+.featured_07_full{background: url(../portfolio/images/featured_property/featured_07_thumb.jpg) center;}
+.featured_08_full{background: url(../portfolio/images/featured_property/featured_08_thumb.jpg) center;}
+.featured_09_full{background: url(../portfolio/images/featured_property/featured_09_thumb.jpg) center;}
+.featured_10_full{background: url(../portfolio/images/featured_property/featured_10_thumb.jpg) center;}
+.featured_11_full{background: url(../portfolio/images/featured_property/featured_11_thumb.jpg) center;}
+.featured_12_full{background: url(../portfolio/images/featured_property/featured_12_thumb.jpg) center;}
+.featured_13_full{background: url(../portfolio/images/featured_property/featured_13_thumb.jpg) center;}
+.featured_14_full{background: url(../portfolio/images/featured_property/featured_14_thumb.jpg) center;}
+.featured_15_full{background: url(../portfolio/images/featured_property/featured_15_thumb.jpg) center;}
+.featured_16_full{background: url(../portfolio/images/featured_property/featured_16_thumb.jpg) center;}
+.featured_17_full{background: url(../portfolio/images/featured_property/featured_17_thumb.jpg) center;}
+.featured_18_full{background: url(../portfolio/images/featured_property/featured_18_thumb.jpg) center;}
+.featured_19_full{background: url(../portfolio/images/featured_property/featured_19_thumb.jpg) center;}
+.featured_20_full{background: url(../portfolio/images/featured_property/featured_20_thumb.jpg) center;}
+.featured_21_full{background: url(../portfolio/images/featured_property/featured_21_thumb.jpg) center;}
+.featured_22_full{background: url(../portfolio/images/featured_property/featured_22_thumb.jpg) center;}
+/**
+*** Landscape Design Portfolio Thumbnail Images 
+***
+*** Description ------ Pre Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.featured_01_full,.featured_02_full,.featured_03_full,.featured_04_full,.featured_05_full,.featured_06_full,
+.featured_07_full,.featured_08_full,.featured_09_full,.featured_10_full,.featured_11_full,.featured_12_full,
+.featured_13_full,.featured_14_full,.featured_15_full,.featured_16_full,.featured_17_full,.featured_18_full,
+.featured_19_full,.featured_20_full,.featured_21_full,.featured_22_full  {
+    background-size: 200% !important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+/**
+*** Landscape Design Portfolio Thumbnail Images 
+***
+*** Description ------ Hover Properties
+*** Modified --------- 28 April 2016
+**/
+.featured_01_full:hover,.featured_02_full:hover,.featured_03_full:hover,.featured_04_full:hover,.featured_05_full:hover,.featured_06_full:hover,
+.featured_07_full:hover,.featured_08_full:hover,.featured_09_full:hover,.featured_10_full:hover,.featured_11_full:hover,.featured_12_full:hover,
+.featured_13_full:hover,.featured_14_full:hover,.featured_15_full:hover,.featured_16_full:hover,.featured_17_full:hover,.featured_18_full:hover,
+.featured_19_full:hover,.featured_20_full:hover,.featured_21_full:hover,.featured_22_full:hover{
+    background-size: 220%!important;
+    -webkit-transition: .4s ease-in;
+    transition: .4s ease-out; 
+}
+
 
 
 

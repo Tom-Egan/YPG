@@ -80,7 +80,7 @@
 
                 <!-- Featured Property Box 1 -->
                 <div class="portfolio-box">
-                    <a href="portfolio-featured-property" title="" alt="">
+                    <a href="portfolio/featured-property" title="" alt="">
                         <div class="portfolio-zoom1 featured-prop-main">
                             <div class="servicebox-hover">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -91,7 +91,7 @@
 
                 <!-- FEATURED PROPERTY "VIEW MORE" BTN -->
                 <div class="port-view-more">
-                    <a href="portfolio-featured-property"> View More </a>
+                    <a href="portfolio/featured-property"> View More </a>
                 </div>
             </div>
 
