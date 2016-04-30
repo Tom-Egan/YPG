@@ -29,7 +29,7 @@
                 <!-- about -->
                 <span><a href="about-ypg" title="Learn more about YPG">About</a></span>
                 <!-- portfolio -->
-                <span><a href="portfolio.php" title="View YPG's completed projects">Portfolio</a></span>
+                <span><a href="portfolio/" title="View YPG's completed projects">Portfolio</a></span>
                 <!-- careers -->
                 <span><a href="careers">Careers</a></span>
                 <!-- contact -->
