@@ -95,7 +95,7 @@
             </li> <!-- end of [DROPDOWN] -->
 
             <!-- portfolio -->
-            <li><a href="portfolio.php" title="View past work completed by YPG">Portfolio</a></li>
+            <li><a href="portfolio/" title="View past work completed by YPG">Portfolio</a></li>
             <!-- careers -->
             <li><a href="careers">Careers</a></li>
             <!-- contact -->
