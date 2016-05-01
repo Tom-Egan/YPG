@@ -8,12 +8,13 @@
 
       Developer: Tom Egan (tom-egan.com)
       Created: May 2014
-      Last Modified: 24 April 2016
+      Last Modified: 30 April 2016
 
       Dependencies:
-      - - includes/header_navbar.php
-      - - includes/footer_links.php
-      - - includes/footer_awards.php
+      - - includes/header_navbar_portfolio.php
+      - - includes/footer_links_portfolio.php
+      - - includes/footer_lightbox.php
+      - - xml/portfolio_grid.xml
 
 -->
 
@@ -62,9 +63,9 @@
   </div>
 </div>
 </div>
-<div class="container-fluid subpage-wrap">
+<div class="container-fluid  portfolio_bg subpage-wrap">
     <!-- BEGIN "PORTFOLIO- VIEW ALL" -->
-    <div class="container subpage-body">
+    <div class="container services subpage-body">
         <!-- page header -->
         <div class="row">
 
@@ -72,213 +73,48 @@
 
         <!-- Row 1 - Featured Property and Landscape -->
         <div class="row">
-            <!-- Featured Property Title -->
-            <div class="col-md-5 subpage-text">
-                <br><br><br>
-                <h2>Featured Property</h2>
-                <div class="subpage-heading-border"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+            <?php
+                // load XML file containing image filenames
+                $xml=simplexml_load_file("../xml/portfolio_grid.xml") or die("XML Error: Cannot create object");
 
-                <!-- Featured Property Box 1 -->
-                <div class="portfolio-box">
-                    <a href="featured-property" title="" alt="">
-                        <div class="portfolio-zoom1 featured-prop-main">
-                            <div class="servicebox-hover">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                // for loop to parse through XML data and pull image paths
+                foreach ($xml as $portGrid):
 
-                <!-- FEATURED PROPERTY "VIEW MORE" BTN -->
-                <div class="port-view-more">
-                    <a href="featured-property"> View More </a>
-                </div>
+                    // Assign variable $catTitle to XML <title> attribute (category title h3)
+                    $catTitle=$portGrid->title;
+                    // Assign variable $class_name to XML <inside_div> attribute (CSS class name)
+                    $class_name=$portGrid->inside_div;
+                    // Assign variable $url to XML <link> attribute (file name)
+                    $url=$portGrid->link;
+
+                    // [+1 div] Create container div for nested structure
+                    echo "<div class='col-md-4 home-service-outside'>";
+                    echo "<div class='home-service-inner ",$class_name,"'>";
+                    echo "<a href='",$url,"'>";
+                    echo "<div class='parts-hover-overlay'>";
+                    echo "<div class='part-hover-text-left'><span class='glyphicon glyphicon-search'></span></div>'";
+                    echo "<br>";
+                    echo "<div class='part-hover-text-right'><span>View</span></div>";
+                    echo "</div>";
+                    echo "</a>";
+                    echo "</div>";
+                    echo "<div class='grid_title_card'>";
+                    echo "<h3>",$catTitle,"</h3>";
+                    echo "<div class='go-to-link'>";
+                    echo "<a href='",$url,"'>";
+                    echo "<span class='glyphicon glyphicon-chevron-right'></span>";
+                    echo "</a>";
+                    echo "</div>";
+                    echo "</div>";
+                    echo "</div>";
+                // end of for loop
+                endforeach;
+            ?>
             </div>
-
-            <div class="col-md-2">
-            </div>
-
-            <!-- Landscape -->
-            <div class="col-md-5 subpage-text ">
-                <br><br><br>
-                <h2>Landscape</h2>
-                <div class="subpage-heading-border"></div>
-
-                <!-- Landscape Box 1 -->
-                <div class="portfolio-box">
-                    <a href="landscape" title="" alt="">
-                        <div class="portfolio-zoom1 landscape-main">
-                            <div class="servicebox-hover">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Landscape "VIEW MORE" BTN -->
-                <div class="port-view-more">
-                    <a href="landscape"> View More </a>
-                </div>
-            </div>
-        </div> <!--/ end row 1 -->
-
-        <!-- Row 2 - Concrete and Hardscape -->
-        <div class="row">
-            <!-- Concrete Title -->
-            <div class="col-md-5 subpage-text port-main-fix">
-                <br><br><br>
-                <h2>Concrete</h2>
-                <div class="subpage-heading-border"></div>
-
-                <!-- Concrete Box 1 -->
-                <div class="portfolio-box">
-                    <a href="concrete" title="" alt="">
-                        <div class="portfolio-zoom1 concrete-main">
-                            <div class="servicebox-hover portbox-hover">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Concrete "VIEW MORE" BTN -->
-                <div class="port-view-more">
-                    <a href="concrete"> View More </a>
-                </div>
-            </div>
-
-            <div class="col-md-2">
-            </div>
-
-            <!-- Hardscape -->
-            <div class="col-md-5 subpage-text port-main-fix">
-                <br><br><br>
-                <h2>Hardscape</h2>
-                <div class="subpage-heading-border"></div>
-
-                <!-- Hardscape Box 1 -->
-                <div class="portfolio-box">
-                    <a href="hardscape" title="" alt="">
-                        <div class="portfolio-zoom1 hardscape-main">
-                            <div class="servicebox-hover">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Hardscape "VIEW MORE" BTN -->
-                <div class="port-view-more">
-                    <a href="hardscape"> View More </a>
-                </div>
-            </div>
-        </div> <!--/ end row 2 -->
-
-        <!-- Row 3 - Landscape Design and Lawn & Turf -->
-        <div class="row ">
-            <!-- Landscape Design Title -->
-            <div class="col-md-5 subpage-text port-main-fix2">
-                <br><br><br>
-                <h2>Landscape Design</h2>
-                <div class="subpage-heading-border"></div>
-
-                <!-- Landscape Design Box 1 -->
-                <div class="portfolio-box">
-                    <a href="landscape-design" title="" alt="">
-                        <div class="portfolio-zoom1 landscape-design-main">
-                            <div class="servicebox-hover">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Landscape Design "VIEW MORE" BTN -->
-                <div class="port-view-more">
-                    <a href="landscape-design"> View More </a>
-                </div>
-            </div>
-
-            <div class="col-md-2">
-            </div>
-
-            <!-- Lawn & Turf -->
-            <div class="col-md-5 subpage-text port-main-fix2">
-                <br><br><br>
-                <h2>Lawn &amp; Turf</h2>
-                <div class="subpage-heading-border"></div>
-
-                <!-- Lawn & Turf Box 1 -->
-                <div class="portfolio-box">
-                    <a href="lawn" title="" alt="">
-                        <div class="portfolio-zoom1 lawn-main">
-                            <div class="servicebox-hover">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Lawn & Turf "VIEW MORE" BTN -->
-                <div class="port-view-more">
-                    <a href="lawn"> View More </a>
-                </div>
-            </div>
+            <div class="col-md-1"></div>
         </div> <!--/ end row 3 -->
-
-        <!-- Row 4 - Material Delivery and Tree & Firewood -->
-        <div class="row">
-            <!-- Material Delivery Title -->
-            <div class="col-md-5 subpage-text port-main-fix3">
-                <br><br><br>
-                <h2>Material Delivery</h2>
-                <div class="subpage-heading-border"></div>
-
-                <!-- Material Delivery Box 1 -->
-                <div class="portfolio-box">
-                    <a href="material-delivery" title="" alt="">
-                        <div class="portfolio-zoom1 delivery-main">
-                            <div class="servicebox-hover">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Material Delivery "VIEW MORE" BTN -->
-                <div class="port-view-more">
-                    <a href="material-delivery"> View More </a>
-                </div>
-            </div>
-
-            <div class="col-md-2">
-            </div>
-
-            <!-- Tree & Firewood -->
-            <div class="col-md-5 subpage-text port-main-fix3">
-                <br><br><br>
-                <h2>Tree Service</h2>
-                <div class="subpage-heading-border"></div>
-
-                <!-- Tree & Firewood Box 1 -->
-                <div class="portfolio-box">
-                    <a href="tree-service" title="" alt="">
-                        <div class="portfolio-zoom1 tree-main">
-                            <div class="servicebox-hover">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Tree & Firewood "VIEW MORE" BTN -->
-                <div class="port-view-more">
-                    <a href="tree-service"> View More </a>
-                </div>
-            </div>
-        </div> <!--/ end row 3 -->
-
-
     </div> <!--/end body container -->
 </div>
  

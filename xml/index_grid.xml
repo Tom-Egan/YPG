@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portfolio_boxes>
+	<!-- grid box 1 -->
+	<portfolio_box>
+		<title>Tree Service</title>
+		<inside_div>inner_tree</inside_div>
+		<link>tree-service</link>
+	</portfolio_box>
+	<!-- grid box 2 -->
+	<portfolio_box>
+		<title>Landscape</title>
+		<inside_div>inner_landscape</inside_div>
+		<link>landscape</link>
+	</portfolio_box>
+	<!-- grid box 3 -->
+	<portfolio_box>
+		<title>Lawn &amp; Turf</title>
+		<inside_div>inner_lawn</inside_div>
+		<link>lawn</link>
+	</portfolio_box>
+	<!-- grid box 4 -->
+	<portfolio_box>
+		<title>Hardscape</title>
+		<inside_div>inner_hardscape</inside_div>
+		<link>hardscape</link>
+	</portfolio_box>
+	<!-- grid box 5 -->
+	<portfolio_box>
+		<title>Maintenance</title>
+		<inside_div>inner_maintenance</inside_div>
+		<link>maintenance</link>
+	</portfolio_box>
+	<!-- grid box 6 -->
+	<portfolio_box>
+		<title>Landscape Design</title>
+		<inside_div>inner_landscape_design</inside_div>
+		<link>landscape-design</link>
+	</portfolio_box>
+	<!-- grid box 7 -->
+	<portfolio_box>
+		<title>Concrete</title>
+		<inside_div>inner_concrete</inside_div>
+		<link>concrete</link>
+	</portfolio_box>
+	<!-- grid box 8 -->
+	<portfolio_box>
+		<title>Snow &amp; Ice Management</title>
+		<inside_div>inner_snow</inside_div>
+		<link>snow-ice-management</link>
+	</portfolio_box>
+	<!-- grid box 9 -->
+	<portfolio_box>
+		<title>Material Delivery</title>
+		<inside_div>inner_material_delivery</inside_div>
+		<link>material-delivery</link>
+	</portfolio_box>
+</portfolio_boxes>

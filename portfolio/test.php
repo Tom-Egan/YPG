@@ -8,17 +8,18 @@
 
       Developer: Tom Egan (tom-egan.com)
       Created: May 2014
-      Last Modified: 24 April 2016
+      Last Modified: 30 April 2016
 
       Dependencies:
-      - - includes/header_navbar.php
-      - - includes/footer_links.php
-      - - includes/footer_awards.php
+      - - includes/header_navbar_portfolio.php
+      - - includes/footer_links_portfolio.php
+      - - includes/footer_lightbox.php
+      - - xml/portfolio_grid.xml
 
 -->
 
 <head>
-    <title>Tree Service Portfolio | Your Personal Gardener</title>
+    <title>Portfolio | Your Personal Gardener</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.65, maximum-scale=0.65">
@@ -40,7 +41,6 @@
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../css/ypg-styles.css">
-
     <link rel="stylesheet" href="../css/lightbox.css" />
 
     <!-- favicons and touch icons-->
@@ -51,76 +51,72 @@
                      <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-32-precomposed.png">
                                     <link rel="shortcut icon" href="../assets/ico/apple-touch-icon-32-precomposed.png">
                                                             <link rel="shortcut icon" href="../assets/ico/favicon.png"> 
-
-
-
 </head>
 
 <body>
+<!-- load navbar module -->
 <?php include '../includes/header_navbar_portfolio.php'; ?>
-<!-- [FULL CONTAINER] -->
-<div class="container-fluid subpage-wrap">
-    <!-- [CONTAINER] -->
-    <div class="container subpage-body">
-        <!-- [TITLE] -->
+
+<div class="container-fluid subpage-header portfolio-header">
+  <div class="container subpage-title-fix">
+   <h1 class="page-title subpage-title ">Portfolio</h1>
+  </div>
+</div>
+</div>
+<div class="container-fluid  portfolio_bg subpage-wrap">
+    <!-- BEGIN "PORTFOLIO- VIEW ALL" -->
+    <div class="container services subpage-body">
+        <!-- page header -->
         <div class="row">
-            <div class="col-md-6">
-                <h1 class="page-title portfolio-title-fix "><span class="accent"> Tree Service</span></h1>
-                <!-- page title underline -->
-                <div class="subpage-underline"></div>
-                <br><br>
-            </div>
-            <div class="col-md-6 return-port">
-                <a href="../portfolio/">Return to Portfolio</a>
-            </div>
-        </div> <!--/end row 1 -->
 
-        <!-- [GRID] -->
+        </div>
+
+        <!-- Row 1 - Featured Property and Landscape -->
         <div class="row">
-        <!-- 
-
-            [1] Start XML-PHP Parser to dynamically generate grid 
-            [2] Image file names stored in XML file 
-            [3] Runs a for loop and generates a new 'col-md-3' (container div) each pass
-            [4] Data pulled from XML, placed into link paths and css class names of nested div struct
-
-        -->
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
             <?php
                 // load XML file containing image filenames
-                $xml=simplexml_load_file("data.xml") or die("XML Error: Cannot create object");
+                $xml=simplexml_load_file("../xml/portfolio_grid.xml") or die("XML Error: Cannot create object");
 
                 // for loop to parse through XML data and pull image paths
-                foreach ($xml as $imgPath):
+                foreach ($xml as $portGrid):
 
-                    // Assign variable $image_name to XML <img> attribute (image file name)
-                    $image_name=$imgPath->img;
-                    // Assign variable $alt to XML <alt> attribute (image alt text)
-                    $alt=$imgPath->alt;
+                    // Assign variable $catTitle to XML <title> attribute (category title h3)
+                    $catTitle=$portGrid->title;
+                    // Assign variable $class_name to XML <inside_div> attribute (CSS class name)
+                    $class_name=$portGrid->inside_div;
+                    // Assign variable $url to XML <link> attribute (file name)
+                    $url=$portGrid->link;
 
                     // [+1 div] Create container div for nested structure
-                    echo "<div class='col-md-3 servicebox'>";
-                    // [+2] open anchor => link to lightbox image
-                    echo "<a href='images/tree_service/",$image_name,".jpg' data-lightbox='delivery-main' title='' alt='",$alt,"'>";
-                    // [+3] open div => XML data turned into CSS class name, uses image name as bg image
-                    echo "<div class='portfolio-zoom ",$image_name,"'>";
-                    // [+4] open div => hover effect + icon
-                    echo "<div class='servicebox-hover'>";
-                    // hover effect => magnifying glass icon
-                    echo "<span class='glyphicon glyphicon-search'></span>";
-                    // [-4] end of hover effect div
+                    echo "<div class='col-md-4 home-service-outside'>";
+                    echo "<div class='home-service-inner ",$class_name,"'>";
+                    echo "<a href='",$url,"'>";
+                    echo "<div class='parts-hover-overlay'>";
+                    echo "<div class='part-hover-text-left'><span class='glyphicon glyphicon-search'></span></div>'";
+                    echo "<br>";
+                    echo "<div class='part-hover-text-right'><span>View</span></div>";
                     echo "</div>";
-                    // [-3] end of inner div
+                    echo "</a>";
                     echo "</div>";
-                    // [-2] end of link
-                     echo "</a>";
-                    // [-1] end of col-md-3
+                    echo "<div class='grid_title_card'>";
+                    echo "<h3>",$catTitle,"</h3>";
+                    echo "<div class='go-to-link'>";
+                    echo "<a href='",$url,"'>";
+                    echo "<span class='glyphicon glyphicon-new-window'></span>";
+                    echo "</a>";
+                    echo "</div>";
+                    echo "</div>";
                     echo "</div>";
                 // end of for loop
                 endforeach;
             ?>
-        </div> <!-- end of [GRID] -->
-    </div> <!--  end of [CONTAINER] -->
-</div> <!-- end of [FULL CONTAINER] -->
-
+            </div>
+            <div class="col-md-1"></div>
+        </div> <!--/ end row 3 -->
+    </div> <!--/end body container -->
+</div>
+ 
 <?php include '../includes/footer_links_portfolio.php'; ?>
 <?php include '../includes/footer_lightbox.php'; ?>

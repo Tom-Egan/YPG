@@ -82,6 +82,11 @@
             <img src="images/hardscape04.jpg">
         </div>
     </div> <!--/end row 1 -->
+
+    <div class="col-md-12">
+        <br><br><br><br>
+        <img class="img-responsive center_align" src="portfolio/images/hardscape/hardscape_02_full.jpg">
+    </div>
 </div> <!--/end "services" container -->
 </div>
 

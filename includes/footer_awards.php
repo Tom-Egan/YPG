@@ -32,35 +32,15 @@
         <h3 class="awards-title">Awards <span class="reg-weight"> & </span>Affiliates</h3>
 
         <!-- [COL XS 2] Simply the Best -->
-        <div class="col-xs-2">
+        <div class="award-icons">
             <img class="img-responsive" src="images/award-simplythebest2.png" title="Voted 2014 Mukwonago Area's 'Simply the Best' Landscape and Lawn Maintenance Company">
+            <img class="img-responsive icon-margin" src="images/award-muk2.png" title="Mukwonago Area Chamber of Commerce & Tourism Center">
+            <img class="img-responsive icon-margin" src="images/award-mastergardener2.png" title="UW-Extension Master Gardener Program">
+            <img class="img-responsive icon-margin" src="images/award-pat.png" title="UW-Extension Pesticide Applicator Training Program">
+            <img class="img-responsive icon-margin" src="images/award-waa2.png" title="Wisconsin Arborist Association">
+            <img class="img-responsive wlca-fix icon-margin" src="images/award-wlca2.png" title="Wisconsin Landscape Contractors Association">
+            <img class="img-responsive" src="images/isa_logo.svg" title="International Society of Arboriculture">         
         </div>
-
-        <!-- [COL XS 2] Chamber of Commerce -->
-        <div class="col-xs-2">
-            <img class="img-responsive" src="images/award-muk2.png" title="Mukwonago Area Chamber of Commerce & Tourism Center">
-        </div>
-
-        <!-- [COL XS 2] Master Gardener -->
-        <div class="col-xs-2">
-            <img class="img-responsive" src="images/award-mastergardener2.png" title="UW-Extension Master Gardener Program">
-        </div>
-
-        <!-- [COL XS 2] Pesticide Applicator Training -->
-        <div class="col-xs-2">
-            <img class="img-responsive" src="images/award-pat.png" title="UW-Extension Pesticide Applicator Training Program">
-        </div>
-
-        <!-- [COL XS 2] Arborist Association -->
-        <div class="col-xs-2">
-            <img class="img-responsive" src="images/award-waa2.png" title="Wisconsin Arborist Association">
-        </div>
-
-        <!-- [COL XS 2] Landscape Contrators Association -->
-        <div class="col-xs-2">
-            <img class="img-responsive wlca-fix" src="images/award-wlca2.png" title="Wisconsin Landscape Contractors Association">
-        </div>
-
     </div> <!--/ end of [CONTAINER] -->
 </div> <!--/ end of [FULL CONTAINER] -->
 

@@ -56,62 +56,82 @@
 <?php include 'includes/header_navbar.php'; ?>
 
 <div class="container-fluid subpage-header tree-header">
-<div class="container">
-<h1 class="page-title subpage-title ">Tree Services</h1>
-</div>
-</div>
-<div class="container-fluid subpage-wrap">
-<!-- BEGIN "OUR SERVICES" -->
-<div class="container subpage-body">
-    <!-- BEGIN ROW 1 -->
-    <div class="row">
-
-        <div class="col-md-6 subpage-text">
-            <p>Your Personal Gardener offers a variety of tree & shrub services to help our residential & commercial customers maintain beautiful, healthy trees and shrubs. Our arborists are experts in diagnosing and treating problems to help protect your properties most valuable resources as well as your landscapes investment. Rest assured our Arborists take pride in their craftsmanship acknowledging they are given the complete responsibility to care for and treat your trees and shrubs.</p>
-
-            <p>As a full service tree company we are capable of supporting all of your tree and shrubs needs.  We offer traditional tree services such as planting, pruning, removal, and stump grinding. We also offer Plant Health Care (PHC) programs that cultivate healthy trees and shrubs in healthy environments (Ex: Emerald Ash Borer injections, Oak Wilt & Dutch Elms disease treatments, Japanese Beetle Control, Fungicidal treatments for pines and spruce, etc.)</p>
-
-            <p>Our Plant Health Care programs promote plant vigor and growth helping ensure your plants remain healthy for many generations to enjoy and cherish.  The process of PHC through scheduled preventative maintenance based on our monitoring and use of cultural and chemical tactics is used to enhance tree vitality. Whether we are proactively treating your shrubs and trees or addressing the causes of reduction in your plants health, rest assured we’ll provide the corrective measures to promote the healthiest plants possible!</p>
-            <br><br>
-        <h2>Tree Services</h2>
-
-        <div class="subpage-heading-border"></div>
-           <ul>
-               <li>Fertilization and Soil Care</li>
-               <li>Insect and Disease Management</li>
-               <li>Pruning</li>
-               <li>Tree and Shrub Planting</li>
-               <li>Tree Cabling and Bracing</li>
-               <li>Tree Removal and Stump Grinding</li>
-               <li>Root Collar Excavation / Girdling Root Remediation</li>
-               <li>Tree and Shrub Mulching </li>
-               <li>New Tree Installation Maintenance Packages</li>
-           </ul>
-
-        <br>
-
-        <h2>Firewood</h2>
-        <div class="subpage-heading-border"></div>
-
-        <p>Your Personal Gardener offers two types of firewood: 100% seasoned oak or premium mixed hardwoods. Our premium mix consists of only the finest and hottest burning BTU hardwoods: <span class="accent-green">oak, hickory, ash, cherry, and locust</span>.  All of our split firewood is aged and seasoned, coming in lengths ranging from 16"-18" <i>(Firewood can be moved to a specific location on your property and stacked for a small fee.)</i>.
-           <br><br>There are three quantities to choose from:</p>
-
-           <ul>
-               <li>Face cord (43 cubic feet)</li>
-               <li>Half cord (64 cubic feet)</li>
-               <li>Full cord (128 cubic feet)</li>
-           </ul>
-
-        </div>
-        <div class="col-md-5 subpage-image1">
-            <img class="img-responsive" src="images/tree02a.jpg" alt="image of tree service">
-            <br><br>
-            <img class="img-responsive" src="images/tree01a.jpg" alt="image of tree service">
-            <br><br>
-            <img class="img-responsive" src="images/firewood02a.jpg" alt="image of firewood service">
-        </div>
+    <div class="container subpage-title-fix">
+        <h1 class="page-title subpage-title ">Tree Services</h1>
     </div>
-</div> <!--/end "about" container -->
 </div>
+
+<!-- [FULL CONTAINER] -->
+<div class="container-fluid subpage-wrap">
+    <!-- [CONTAINER] -->
+    <div class="container subpage-body">
+        <!-- [ROW 1] -->
+        <div class="row">
+            <!-- [COL 6] -->
+            <div class="col-md-6 subpage-text">
+                <p>Your Personal Gardener offers a variety of tree and shrub services to help our residential and commercial customers maintain beautiful, healthy trees and shrubs. Our arborists are experts in diagnosing and treating problems to help protect your properties most valuable resources as well as your landscapes investment. Rest assured our Arborists take pride in their craftsmanship acknowledging they are given the complete responsibility to care for and treat your trees and shrubs.</p>
+                <p>As a full service tree company we are capable of supporting all of your tree and shrubs needs.  We offer traditional tree services such as planting, pruning, removal, and stump grinding. We also offer Plant Health Care (PHC) programs that cultivate healthy trees and shrubs in healthy environments (Ex: Emerald Ash Borer injections, Oak Wilt &amp; Dutch Elms disease treatments, Japanese Beetle Control, Fungicidal treatments for pines and spruce, etc.)</p>
+                <p>Our Plant Health Care programs promote plant vigor and growth helping ensure your plants remain healthy for many generations to enjoy and cherish.  The process of PHC through scheduled preventative maintenance based on our monitoring and use of cultural and chemical tactics is used to enhance tree vitality. Whether we are proactively treating your shrubs and trees or addressing the causes of reduction in your plants health, rest assured we’ll provide the corrective measures to promote the healthiest plants possible!</p>
+                <br><br>
+                <h2>Tree Services</h2>
+                <div class="subpage-heading-border"></div>
+
+                <!-- list of tree services -->
+                <ul>
+                    <li>Fertilization and Soil Care</li>
+                    <li>Insect and Disease Management</li>
+                    <li>Pruning</li>
+                    <li>Tree and Shrub Planting</li>
+                    <li>Tree Cabling and Bracing</li>
+                    <li>Tree Removal and Stump Grinding</li>
+                    <li>Root Collar Excavation / Girdling Root Remediation</li>
+                    <li>Tree and Shrub Mulching </li>
+                    <li>New Tree Installation Maintenance Packages</li>
+                </ul>
+            </div> <!-- end of [COL 6] -->
+
+            <div class="col-md-6">
+                <img class="img-responsive float-right hide-mobile" src="portfolio/images/tree_service/tree_service_20_page.jpg" alt="image of firewood service">
+            </div> <!-- end of [COL 6] -->
+        </div> <!--    end of [ROW] -->
+    </div> <!--  end of [CONTAINER] -->
+</div> <!-- end of [FULL CONTAINER] -->
+
+<!-- [FULL CONTAINER]-->
+<div class="container-fluid hero-wrapper">
+    <div class="tree-hero-img"></div>
+    <div class="hero-tint"></div>
+</div>
+
+<!-- [FULL CONTAINER] -->
+<div class="container-fluid subpage-wrap">
+    <!-- [CONTAINER] -->
+    <div class="container subpage-body">
+        <!-- [ROW 2] -->
+        <div class="row">
+            <!-- [COL 6] -->
+            <div class="col-md-6 subpage-text">
+                <h2>Firewood</h2>
+                <div class="subpage-heading-border"></div>
+
+                <p>Your Personal Gardener offers two types of firewood: 100% seasoned oak or premium mixed hardwoods. Our premium mix consists of only the finest and hottest burning BTU hardwoods: <span class="accent-green">oak, hickory, ash, cherry, and locust</span>.  All of our split firewood is aged and seasoned, coming in lengths ranging from 16"-18" <i>(Firewood can be moved to a specific location on your property and stacked for a small fee.)</i>.
+                   <br><br>There are three quantities to choose from:</p>
+
+                   <ul>
+                       <li>Face cord (43 cubic feet)</li>
+                       <li>Half cord (64 cubic feet)</li>
+                       <li>Full cord (128 cubic feet)</li>
+                   </ul>
+            </div> <!-- end of [COL 6] -->
+            <!-- [COL 6] -->
+            <div class="col-md-6 float-right">
+                <br><br><br>
+                <img class="img-responsive" src="portfolio/images/material_delivery/mat_delivery_13_full.jpg" alt="image of firewood service">
+            </div> <!-- end of [COL 6] -->
+         </div> <!-- end of [ROW 2] -->
+    </div> <!--  end of [CONTAINER] -->
+</div> <!-- end of [FULL CONTAINER] -->
+
+                
 <?php include 'includes/footer_links.php'; ?>
 <?php include 'includes/footer_awards.php'; ?>
