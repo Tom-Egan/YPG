@@ -18,10 +18,9 @@
 -->
 
 <head>
-    <title>Landscape | Your Personal Gardener</title>
+    <title>Snow &amp; Ice Management | Your Personal Gardener</title>
 
     <meta charset="utf-8">
-    <meta name="author" content="Tom Egan">
     <meta name="viewport" content="width=device-width, initial-scale=0.65, maximum-scale=0.65">
     <meta name="robots" content="index, follow" />
     <meta name="description" content="Based out of Mukwonago, Wisconsin, YPG proudly serves the commercial and residential communities of Southeastern Wisconsin with year-round outdoor services.">
@@ -54,41 +53,60 @@
 
 <body>
 <!-- load navbar module -->
-<?php include 'includes/header_navbar.php'; ?> 
+<?php include 'includes/header_navbar.php'; ?>
 
-<div class="container-fluid subpage-header landscape-header">
-    <div class="container subpage-title-fix">
-        <h1 class="page-title subpage-title ">Landscape</h1>
-    </div>
+<div class="container-fluid subpage-header snow-header">
+  <div class="container subpage-title-fix">
+   <h1 class="page-title subpage-title ">Snow &amp; Ice Management</h1>
+  </div>
 </div>
-
+</div>
 <div class="container-fluid subpage-wrap">
-  <!-- BEGIN "OUR SERVICES" -->
-  <div class="container subpage-body">
-      <!-- BEGIN ROW 1 -->
-      <div class="row">
+<!-- BEGIN "OUR SERVICES" -->
+<div class="container subpage-body">
+    <!-- BEGIN ROW 1 -->
+    <div class="row">
 
-          <div class="col-md-6 subpage-text">
-            <p>Looking for a new installation, or maybe just some weekly or bi- weekly maintenance? Look no further. At Your Personal Gardener, we can help you with all of your outdoor needs. We strive at helping you not only <span class="accent-green">create the landscape of your dreams</span>, but also maintaining your landscape.  For more information on landscape maintenance, come explore our wide range of <a href="maintenance.html"> maintenance packages</a>.</p>
-            <br>
-            <h2>Your Personal Gardener, <br>Year After Year</h2>
+        <div class="col-md-6 subpage-text snow-list">
+          <h2>Take the worry out of winter</h2>
             <div class="subpage-heading-border"></div>
-            <p>With landscaping and outdoor maintenance the cycle of installation, maintenance, and restoration/renovation never truly ends. We at Your Personal Gardener understand this and are excited to not only help you create your new garden and landscape, but to help you maintain and keep it <span class="accent-green">looking its best</span> season after season.</p>
-          </div> 
 
-          <div class="col-md-5 subpage-image1">
-              <img class="img-responsive" src="images/landscaping03a.jpg" alt="image of landscape">            
-          </div>      
-      </div> <!--/end row 1 -->
+            <p>Winter is always a beautiful time of the year, but with that beauty comes lots of messy, cold work.  Let us take the worry and work out of this beautiful winter through our premier snow removal services.  Entrust your residential and commercial properties to our professional staff.  Stay <span class="accent-green">warm, dry, and comfortable</span> knowing that you entrusted Your Personal Gardener for your driveways, sidewalks, and parking lots. </p>
+            
+            <br>
 
-      <div class="col-md-12">
-        <br><br><br><br>
-        <img class="img-responsive center_align" src="portfolio/images/landscape/landscape_14_full.jpg">
-    </div>
+            
 
-  </div> <!--/end "about" container -->
+            <p>Our personalized quality approach carries on to snow removal services.  We work <span class="accent-green">24 hours a day, 7 days a week</span> rain or shine, holiday or not to ensure that your snow removal needs are met.  You can rest assured your property will be maintained to the highest level.</p>
+
+        </div> 
+
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-4 subpage-text snow-list">
+            <h2>Snow &amp; Ice Services</h2>
+            <div class="subpage-heading-border"></div>
+
+            <ul>
+                <li>Snow plowing </li>
+                <li>Snow blowing</li>
+                <li>Snow shoveling</li>
+                <li>Roof raking</li>
+                <li>Salting</li>
+                <li>Sanding</li>
+            </ul>
+            <br>
+        </div> 
+        <div class="row">
+          <div class="col-md-12">
+              <br><br><br><br>
+              <img class="img-responsive" src="portfolio/images/snow/snow_02_full.jpg">
+          </div>
+        </div>     
+    </div> <!--/end row 1 -->
+</div> <!--/end "about" container -->
 </div>
 
-<!-- load footer modules -->
 <?php include 'includes/footer_links.php'; ?>
 <?php include 'includes/footer_awards.php'; ?>

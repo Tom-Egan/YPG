@@ -91,6 +91,11 @@
               <img class="img-responsive" src="images/material-delivery01a.jpg" alt="image of material delivery service">
         </div>      
     </div> <!--/end row 1 -->
+
+    <div class="col-md-12">
+        <br><br><br><br>
+        <img class="img-responsive center_align" src="portfolio/images/material_delivery/mat_delivery_10_full.jpg">
+    </div>
 </div> <!--/end "about" container -->
 </div>
 

@@ -378,6 +378,8 @@ body {
     position: relative;
     z-index: 3;
 }
+
+
 .services {
     position: relative;
     padding-top: 50px;
@@ -710,7 +712,16 @@ body {
     background-position: center!important;
     background-size: cover;
     position: relative !important;
-    height: 40vh !important;}
+    height: 40vh !important;
+}
+.about-header2{
+    background-image: url(../images/crew_header_02.jpg)!important;
+    background-position: center!important;
+    background-size: cover;
+    position: relative !important;
+    height: 40vh !important;
+    margin-left: -1px;
+}
 .concrete-header {
     background-image: url(../images/concrete-header.jpg)!important;
     background-position: center!important;
@@ -722,19 +733,24 @@ position: relative !important;}
     margin-bottom: -10px;
 }
 .hardscape-header {
-    background-image: url(../images/hardscape05a.jpg)!important;
+    background-image: url(../portfolio/images/hardscape/hardscape_header.jpg)!important;
     background-position: center!important;
 
     background-size: cover;
 position: relative !important;
-    height: 40vh !important;}
+    height: 40vh !important;
+    margin-left: -1px;
+}
+
 .landscape-header {
-    background-image: url(../images/landscape/landscaping01.jpg)!important;
+    background-image: url(../portfolio/images/landscape/landscape_header.jpg)!important;
     background-position: center!important;
 
     background-size: cover;
 position: relative !important;
-    height: 40vh !important;}
+    height: 40vh !important;
+    margin-left: -1px;
+}
 .landscape-header2 {
     background: url(../images/portfolio-landscape-header.jpg) top top no-repeat fixed;
     background-size: 150%;
@@ -743,6 +759,7 @@ position: relative !important;
     margin-top: -20px;
     text-align: center;
     position: relative;
+    margin-left: -1px;
 }
 .landscape-design-header {
     background-image: url(../images/landscape-design-header.jpg)!important;
@@ -752,11 +769,13 @@ position: relative !important;
 position: relative !important;
     height: 40vh !important;}
 .lawn-header {
-    background-image: url(../images/lawn/lawn01.jpg)!important;
+    background-image: url(../portfolio/images/lawn/lawn_header.jpg)!important;
     background-position: center!important;
     background-size: cover;
 position: relative !important;
-    height: 40vh !important;}
+    height: 40vh !important;
+    margin-left: -1px;
+}
 .maintenance-header {
     background-image: url(../images/maintenance.jpg)!important;
     background-position: center!important;
@@ -764,11 +783,13 @@ position: relative !important;
 position: relative !important;
     height: 40vh !important;}
 .delivery-header {
-    background-image: url(../images/delivery.jpg)!important;
+    background-image: url(../portfolio/images/material_delivery/mat_delivery_header.jpg)!important;
     background-position: center!important;
     background-size: cover;
 position: relative !important;
-    height: 40vh !important;}
+    height: 40vh !important;
+    margin-left: -1px;
+}
 .snow-header {
     background-image: url(../portfolio/images/snow/snow_header.jpg)!important;
     background-position: center!important;
@@ -781,11 +802,13 @@ position: relative !important;
 position: relative !important;
     height: 40vh !important;}
 .portfolio-header {
-    background-image: url(../images/portfolio-header.jpg)!important;
+    background-image: url(../images/portfolio_header.jpg)!important;
     background-position: center!important;
     background-size: cover;
 position: relative !important;
-    height: 40vh !important;}
+    height: 40vh !important;
+    margin-left: -1px;
+}
 .tree-header {
     background-image: url(../portfolio/images/tree_service/tree_service_header.jpg)!important;
     background-position: center!important;
@@ -3120,14 +3143,25 @@ button {
 
 .awards-container {
     text-align: center;
+    width: 85%;
 }
 
 .awards-container > div > img {
     padding-top: 20px;
 }
 
+.award-icons img{
+    display: inline-block;
+}
+
+.icon-margin {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
 .wlca-fix {
     padding-top: 44px !important;
+    margin-right: 35px;
 }
 .awards-title {
     text-transform: uppercase;
@@ -3199,10 +3233,209 @@ button {
 
 
 
+.float-right {
+    float: right;
+}
 
 
+.hero-wrapper {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-left: -15px;
+    z-index: 2;
+}
+
+.hero-tint {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    z-index: 3;
+}
+
+.about-hero-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(../images/crew_header_03.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.tree-hero-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(../portfolio/images/tree_service/tree_service_09_full.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: 1;
+}
 
 
+.center_align {
+    position: relative;
+    margin:0 auto;
+}
+
+/** =====================================================================|
+*** Portfolio (HOME) and Homepage Services Grid Boxes                    |
+***                                                                      |
+*** Modified --------- 30 April 2016                                     |
+*** Applied to ------- index.php                                         |
+***                    portfolio/index.php                               |
+*** =====================================================================|
+**/
+
+/**
+*** Featured Property Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/portfolio_grid.xml 
+**/
+.inner_featured {
+    background: url(../images/featured/featured21-c.jpg) center;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+/**
+*** Landscape Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/portfolio_grid.xml 
+**/
+.inner_landscape{
+    background: url(../portfolio/images/landscape/landscape_17_grid.jpg) center !important;
+    background-size: 122%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+/**
+*** Concrete Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/portfolio_grid.xml && xml/portfolio_grid.xml
+**/
+.inner_concrete{
+    background: url(../images/concrete/concrete01a.jpg) center;
+    background-size: 126%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+/**
+*** Hardscape Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/portfolio_grid.xml && xml/portfolio_grid.xml
+**/
+.inner_hardscape {
+    background: url(../portfolio/images/hardscape/hardscape_03_grid.jpg) center;
+    background-size: 158%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+/**
+*** Landscape Design Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/portfolio_grid.xml && xml/portfolio_grid.xml
+**/
+.inner_landscape_design {
+    background: url(../images/landscape_design/design01.jpg) center;
+    background-size: 158%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+/**
+*** Lawn Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/portfolio_grid.xml && xml/portfolio_grid.xml
+**/
+.inner_lawn {
+    background: url(../portfolio/images/lawn/lawn_02_grid.jpg) center;
+    background-size: 118%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+/**
+*** Material Delivery Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/portfolio_grid.xml && xml/portfolio_grid.xml
+**/
+.inner_material_delivery {
+    background: url(../portfolio/images/material_delivery/mat_delivery_03_grid.jpg) center;
+    background-size: 152%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+/**
+*** Tree Service Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/portfolio_grid.xml && xml/portfolio_grid.xml 
+**/
+.inner_tree {
+    background: url(../images/tree_firewood/tree-climb05.jpg) center;
+    background-size: 102%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+/**
+*** Maintenance Index Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/index_grid.xml 
+**/
+.inner_maintenance {
+    background: url(../images/servicebox-maintenance.jpg) !important;
+    background-size: 100% !important;
+    background-position: top !important;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+/**
+*** Snow Index Grid Box
+*** Modified --------- 30 April 2016
+*** Generated from --- xml/index_grid.xml 
+**/
+.inner_snow {
+    background: url(../images/snow_thumb.jpg) center;
+    background-size: 102%;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+}
+
+/* Parts Used Box - Title BG */
+.grid_title_card {
+    min-width: 220px;
+    position: relative;
+    background: #fff;
+   z-index: 25;
+   margin-top: -20px;
+    /*border-top: 2px solid #2ecc71;*/
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+/* Parts Used Title H3 */
+.grid_title_card h3 {
+
+    text-align: left !important;
+    padding-left: 12px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-size: 1.1em;
+    color: #352E24;
+    font-weight: bold;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.portfolio_bg {
+    background: #e7e7e7;
+    position: relative;
+    padding-bottom: 55px;
+    padding-top: 30px;
+}
 
 
 /** =====================================================================|
@@ -3821,6 +4054,9 @@ button {
     transition: .4s ease-out;
 }
 
+.float-right {float: none; margin-top: 25px;}
+.subpage-header {height: 30vh !important;}
+
 }
 
 @media (max-width: 992px) {.footer-mobile-center p    {text-align: center !important; margin-bottom: 10px;}}
@@ -3829,7 +4065,12 @@ button {
 /* (Parts Used Boxes) adjusts padding to prevent very skinny boxes before mobile break */
 @media (max-width: 1280px) {.home-service-outside         {float: left !important; width: 50% !important;}}
 @media (max-width: 992px) {.center-grid       {margin:0 !important;}}
-@media (max-width: 760px) {.home-service-outside      {float: none !important; width: 85% !important; margin: 0 auto !important; padding-left: 0px !important; padding-right: 0px !important;}}
+@media (max-width: 760px) {
+    .home-service-outside      {float: none !important; width: 85% !important; margin: 0 auto !important; padding-left: 0px !important; padding-right: 0px !important;}
+    .hide-mobile {display: none;}
+    .hero-wrapper {height: 275px;}                    
+
+}
 
 /*
 @media (max-width: 992px) {.parts-index-wrap        {width: 100% !important; margin-top: -120px !important;}}

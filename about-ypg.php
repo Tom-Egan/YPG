@@ -58,7 +58,7 @@
 <?php include 'includes/header_navbar.php'; ?>
 
 <!-- [HERO] -->
-<div class="container-fluid subpage-header about-header">
+<div class="container-fluid subpage-header about-header2">
     <div class="container subpage-title-fix">
         <!-- page title -->
         <h1 class="page-title subpage-title">About</h1>
@@ -94,7 +94,26 @@
                 <span>Your Personal Gardener, LLC</span>
             </div> <!-- end of [COL 6] -->     
         </div> <!-- end of [ROW 1] -->
+    </div>
+</div>
 
+<div class="container-fluid hero-wrapper">
+
+    <div class="about-hero-img"></div>
+    <div class="hero-tint"></div>
+
+<!--
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive center_align" src="images/crew_header_03.jpg">
+            </div>  
+        </div>
+-->
+</div>
+<!-- [FULL CONTAINER] -->
+<div class="container-fluid subpage-wrap">
+    <!-- [CONTAINER] -->
+    <div class="container subpage-body">
         <!-- [ROW 2] -->
         <div class="row">
             <!-- [COL 5] -->

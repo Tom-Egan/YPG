@@ -25,42 +25,22 @@
 
 <!-- [FULL CONTAINER] -->
 <div class="container-fluid awards-bg">
-	<!-- [CONTAINER] -->
+  <!-- [CONTAINER] -->
     <div class="container awards-container">
 
-    	<!-- [H3] -->
+      <!-- [H3] -->
         <h3 class="awards-title">Awards <span class="reg-weight"> & </span>Affiliates</h3>
 
         <!-- [COL XS 2] Simply the Best -->
-        <div class="col-xs-2">
+        <div class="award-icons">
             <img class="img-responsive" src="images/award-simplythebest2.png" title="Voted 2014 Mukwonago Area's 'Simply the Best' Landscape and Lawn Maintenance Company">
+            <img class="img-responsive icon-margin" src="images/award-muk2.png" title="Mukwonago Area Chamber of Commerce & Tourism Center">
+            <img class="img-responsive icon-margin" src="images/award-mastergardener2.png" title="UW-Extension Master Gardener Program">
+            <img class="img-responsive icon-margin" src="images/award-pat.png" title="UW-Extension Pesticide Applicator Training Program">
+            <img class="img-responsive icon-margin" src="images/award-waa2.png" title="Wisconsin Arborist Association">
+            <img class="img-responsive wlca-fix icon-margin" src="images/award-wlca2.png" title="Wisconsin Landscape Contractors Association">
+            <img class="img-responsive" src="images/isa_logo.svg" title="International Society of Arboriculture">        
         </div>
-
-        <!-- [COL XS 2] Chamber of Commerce -->
-        <div class="col-xs-2">
-            <img class="img-responsive" src="images/award-muk2.png" title="Mukwonago Area Chamber of Commerce & Tourism Center">
-        </div>
-
-        <!-- [COL XS 2] Master Gardener -->
-        <div class="col-xs-2">
-            <img class="img-responsive" src="images/award-mastergardener2.png" title="UW-Extension Master Gardener Program">
-        </div>
-
-        <!-- [COL XS 2] Pesticide Applicator Training -->
-        <div class="col-xs-2">
-            <img class="img-responsive" src="images/award-pat.png" title="UW-Extension Pesticide Applicator Training Program">
-        </div>
-
-        <!-- [COL XS 2] Arborist Association -->
-        <div class="col-xs-2">
-            <img class="img-responsive" src="images/award-waa2.png" title="Wisconsin Arborist Association">
-        </div>
-
-        <!-- [COL XS 2] Landscape Contrators Association -->
-        <div class="col-xs-2">
-            <img class="img-responsive wlca-fix" src="images/award-wlca2.png" title="Wisconsin Landscape Contractors Association">
-        </div>
-
     </div> <!--/ end of [CONTAINER] -->
 </div> <!--/ end of [FULL CONTAINER] -->
 
@@ -95,71 +75,23 @@
     <!-- Import jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- Import Bootstrap JavaScript -->
-    <script src="includes/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- Testimonial Slider -->
-    <script type="text/javascript" src="includes/js/jquery.bxslider.min.js"></script>
-    <!-- SlitSlider -->
-    <script type="text/javascript" src="includes/js/jquery.ba-cond.min.js"></script>
-    <!-- SlitSlider -->
-    <script type="text/javascript" src="includes/js/jquery.slitslider.js"></script>
-    <!-- SlitSlider -->
-    <script type="text/javascript"> 
-      $(function() {      
-        var Page = (function() {
-          var $navArrows = $( '#nav-arrows' ),
-            $nav = $( '#nav-dots > span' ),
-            slitslider = $( '#slider' ).slitslider( {
-              onBeforeChange : function( slide, pos ) {
-
-                $nav.removeClass( 'nav-dot-current' );
-                $nav.eq( pos ).addClass( 'nav-dot-current' );
-              }
-            } ),
-            init = function() {
-              initEvents();              
-            },
-            initEvents = function() {
-              // add navigation events
-              $navArrows.children( ':last' ).on( 'click', function() {
-                slitslider.next();
-                return false;
-              } );
-              $navArrows.children( ':first' ).on( 'click', function() {                
-                slitslider.previous();
-                return false;
-              } );
-              $nav.each( function( i ) {              
-                $( this ).on( 'click', function( event ) {                  
-                  var $dot = $( this );                  
-                  if( !slitslider.isActive() ) {
-                    $nav.removeClass( 'nav-dot-current' );
-                    $dot.addClass( 'nav-dot-current' );                  
-                  }                  
-                  slitslider.jump( i + 1 );
-                  return false;                
-                } );                
-              } );
-            };
-            return { init : init };
-        })();
-        Page.init();
-        /**
-         * Notes: 
-         * 
-         * example how to add items:
-         */
-
-        /*
-        
-        var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
-        
-        // call the plugin's add method
-        ss.add($items);
-
-        */      
-      });
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!-- Ideal Slider: Main -->
+    <script src="js/ideal_slider/ideal-image-slider.min.js"></script>
+    <!-- Ideal Slider: Bullets -->
+    <script src="js/ideal_slider/iis-bullet-nav.js"></script>
+    <!-- Ideal Slider: Captions -->
+    <script src="js/ideal_slider/iis-captions.js"></script>
+    <!-- Ideal Slider: Initialization-->
+    <script>
+      var slider = new IdealImageSlider.Slider('#slider');
+        slider.addCaptions();
+        slider.addBulletNav();
+        slider.start();
     </script>
-    <!-- Testimonial Slider -->
+    <!-- Testimonial Slider: Initialization-->
     <script type="text/javascript">
     $('.testimonials-slider').bxSlider({
            slideWidth: 1150,
