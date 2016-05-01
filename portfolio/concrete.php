@@ -81,7 +81,7 @@
             </div>
             <!-- return to portfolio link -->
             <div class="col-md-6 return-port">
-                <a href="../portfolio.php">Return to Portfolio</a>
+                <a href="../portfolio/">Return to Portfolio</a>
             </div>
         </div> <!--/end row 1 -->
 
