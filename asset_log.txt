@@ -1,0 +1,72 @@
+===============================================================================================|
+Images on Page																				   |
+===============================================================================================|
+01.		(SLIDER)		images/slider_feature.jpg
+02.		(SLIDER)		images/slider_tree.jpg
+03.		(SLIDER)		images/slider_garden.jpg
+04.		(SLIDER)		images/slider_lawn.jpg
+05. ***	(NAV)			images/ypglogo2.png		
+06. ***	(FOOTER)		images/award-simplythebest2.png
+07. ***	(FOOTER)		images/award-muk2.png
+08. ***	(FOOTER)		images/award-mastergardener2.png
+09. ***	(FOOTER)		images/award-pat.png
+10. *** (FOOTER)		images/award-waa2.png
+11. *** (FOOTER)		images/award-wlca2.png
+12. *** (FOOTER)		images/isa_logo.svg
+13. *** (ABOUT)			images/james.png
+14. *** (CONCRETE)		images/concrete-subpage02.jpg
+15. *** (CONCRETE)		images/concrete-subpage03.jpg
+16. *** (CONCRETE)		images/concrete-subpage04.jpg
+17. *** (HARDSCAPE)		images/hardscape04.jpg
+18. *** (HARDSCAPE)		portfolio/images/hardscape/hardscape_02_full.jpg
+19. *** (LANDSCAPE)		images/landscaping03a.jpg
+20. *** (LANDSCAPE)		portfolio/images/landscape/landscape_14_full.jpg
+21. *** (L-DESIGN)		images/landscape-design03a.jpg
+22. *** (L-DESIGN)		images/landscape-design04a.jpg
+23. *** (L-DESIGN)		images/landscape-design05a.jpg
+24. *** (LAWN)			images/lawn02a.jpg
+25. *** (LAWN)			images/lawn04.jpg
+26. *** (LAWN)			images/lawn05.jpg
+27. *** (LAWN)			images/sod01.jpg
+28. *** (DELIVERY)		images/material-delivery01a.jpg
+29. *** (DELIVERY)		portfolio/images/material_delivery/mat_delivery_10_full.jpg
+30. *** (SNOW)			portfolio/images/snow/snow_02_full.jpg
+31. *** (TREES)			portfolio/images/tree_service/tree_service_20_page.jpg
+32. *** (TREES)			portfolio/images/material_delivery/mat_delivery_13_full.jpg
+
+===============================================================================================|
+Images in CSS																				   |
+===============================================================================================|
+33. *** (.subpage-header)			images/slider03.jpg
+34. *** (.inner_maintenance)		images/servicebox-maintenance.jpg
+35. *** (.inner_tree)				images/tree_firewood/tree-climb05.jpg
+36. *** (.inner_landscape_design)	images/landscape_design/design01.jpg
+37. *** (.inner_concrete)			images/concrete/concrete01a.jpg
+38. *** (.inner_featured)			images/featured/featured21-c.jpg
+39. *** (.featured-header)			images/featured-header.jpg
+40. *** (.contact-header)			images/contact-header.jpg
+41. *** (.maintenance-header)		images/maintenance.jpg
+42. *** (.landscape-design-header)	images/landscape-design-header.jpg
+43. *** (.landscape-header2)		images/portfolio-landscape-header.jpg
+44. *** (.concrete-header)			images/concrete-header.jpg
+45. *** (.about-header)				images/about.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

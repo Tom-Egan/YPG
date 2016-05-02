@@ -13,23 +13,23 @@
 
 		<!-- [SLIDE 1] Caption -->
 		<div class="external-caption" id="caption-1" style="display:none;">
-			<h3>Spring is here!</h3>
+			<h2>Spring is here!</h2>
 			<p>Call us about our lawn fertilizer and weed control program: (262) 470-3829</p>
 		</div>
 
 		<!-- [SLIDE 2] Caption -->
 		<div class="external-caption" id="caption-2" style="display:none;">
-			<p>Now is the perfect time to plant the tree that will continue your legacy</p>
+			<h3>Now is the perfect time to plant the tree that will continue your legacy</h3>
 		</div>
 
 		<!-- [SLIDE 3] Caption -->
 		<div class="external-caption" id="caption-3" style="display:none;">
-			<p>Let’s design and install your garden one phase at a time</p>
+			<h3>Let’s design and install your garden one phase at a time</h3>
 		</div>
 
 		<!-- [SLIDE 4] Caption -->
 		<div class="external-caption" id="caption-4" style="display:none;">
-			<p>Spring is a great time for Core aeration and over seeding</p>
+			<h3>Spring is a great time for Core aeration and over seeding</h3>
 		</div>
 	</div>
 </div>

@@ -19,7 +19,7 @@
 -->
 
 <head>
-    <title>Your Personal Gardener of Mukwonago, Wisconsin | Southeast Wisconsin's Premier Design, Build, & Maintain Firm</title>
+    <title>Your Personal Gardener of Mukwonago, Wisconsin | Southeast Wisconsin's Premier Design, Build, &amp; Maintain Firm</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.65, maximum-scale=0.65">
@@ -28,7 +28,7 @@
     <meta name="keywords" content="landscape, landscaping, garden, hardscape, concrete, lawn, turf, mowing, tree removal, firewood, snow removal, tree cutting, mukwonago, wisconsin">
 
     <!-- Facebook -->
-    <meta property="og:title" content="Your Personal Gardener | Southeast Wisconsin's Premier Design, Build, & Maintain Firm"/>
+    <meta property="og:title" content="Your Personal Gardener | Southeast Wisconsin's Premier Design, Build, &amp; Maintain Firm"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="http://yourpersonalgardenerllc.com/facebook-thumb.png"/>
     <meta property="og:url" content="http://yourpersonalgardenerllc.com"/>
@@ -40,9 +40,9 @@
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/ypg-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
     <link rel="stylesheet" href="css/ideal_slider/ideal-image-slider.css">
-  <link rel="stylesheet" href="css/ideal_slider/default.css">
+    <link rel="stylesheet" href="css/ideal_slider/default.css">
 
     <!-- SlitSlider-->
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
