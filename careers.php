@@ -27,7 +27,7 @@
     <meta name="keywords" content="landscape, landscaping, garden, hardscape, concrete, lawn, turf, mowing, tree removal, firewood, snow removal, tree cutting, mukwonago, wisconsin">
 
     <!-- Facebook -->
-    <meta property="og:title" content="Your Personal Gardener | Southeast Wisconsin's Premier Design, Build, & Maintain Firm"/>
+    <meta property="og:title" content="Your Personal Gardener | Southeast Wisconsin's Premier Design, Build, &amp; Maintain Firm"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="http://yourpersonalgardenerllc.com/facebook-thumb.png"/>
     <meta property="og:url" content="http://yourpersonalgardenerllc.com"/>
@@ -40,7 +40,7 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Norican" />
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/ypg-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
 
     <!-- favicons and touch icons-->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">

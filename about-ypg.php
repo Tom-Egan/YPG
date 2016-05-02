@@ -27,7 +27,7 @@
     <meta name="keywords" content="landscape, landscaping, garden, hardscape, concrete, lawn, turf, mowing, tree removal, firewood, snow removal, tree cutting, mukwonago, wisconsin">
 
     <!-- Facebook -->
-    <meta property="og:title" content="Your Personal Gardener | Southeast Wisconsin's Premier Design, Build, & Maintain Firm"/>
+    <meta property="og:title" content="Your Personal Gardener | Southeast Wisconsin's Premier Design, Build, &amp; Maintain Firm"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="http://yourpersonalgardenerllc.com/facebook-thumb.png"/>
     <meta property="og:url" content="http://yourpersonalgardenerllc.com"/>
@@ -40,7 +40,7 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Norican" />
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/ypg-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <!-- favicons and touch icons-->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
@@ -72,7 +72,7 @@
         <!-- [ROW 1] -->
         <div class="row">
             <!-- [COL 6] -->
-            <div class="col-md-6 subpage-text">
+            <div class="col-md-7 subpage-text">
                 <p>Your Personal Gardener is a fully insured landscape firm, capable of taking care of all your individual needs through our professional first class service.  
                 We aim to achieve a well managed property that you can take pride in and enjoy! We have created a foundation that starts with <span class="accent-green">professional and courteous service </span> while striving to 
                 meet and exceed your expectations. Our goal is not to just earn your present day business but to maintain your business for a lifetime.</p>
@@ -83,10 +83,12 @@
                 <br><br>
             </div> <!-- end of [COL 6] --> 
 
+            <div class="col-md-1"></div>
+
             <!-- [COL 6] -->
-            <div class="col-md-5 subpage-image1">
+            <div class="col-md-4 james-bio">
                 <!-- image of james -->
-                <img src="images/james.png">
+                <img class="img-responsive" src="images/james_chesebro.jpg">
                 <!-- caption of james -->
                 <h2>JAMES CHESEBRO</h2>
                 <span>Owner</span>

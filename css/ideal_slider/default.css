@@ -123,7 +123,7 @@
 	color: #fff;
 }
 
-.iis-caption-content h3 {
+.iis-caption-content h2 {
 	text-transform: uppercase !important;
 	margin-top: 4px;
 	text-align: center;
@@ -134,6 +134,12 @@
 	text-align: center;
 	font-size: 1.2em;
 }
+
+.iis-caption-content h3 {
+	margin-top: 4px;
+	text-align: center;
+}
+
 
 .slider-wrap {
 	position:relative;

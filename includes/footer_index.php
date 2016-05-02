@@ -79,7 +79,7 @@
     <!-- Testimonial Slider -->
     <script src="js/jquery.bxslider.min.js"></script>
     <!-- Ideal Slider: Main -->
-    <script src="js/ideal_slider/ideal-image-slider.min.js"></script>
+    <script src="js/ideal_slider/ideal-image-slider.js"></script>
     <!-- Ideal Slider: Bullets -->
     <script src="js/ideal_slider/iis-bullet-nav.js"></script>
     <!-- Ideal Slider: Captions -->
