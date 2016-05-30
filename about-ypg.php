@@ -176,15 +176,21 @@
         <!-- [ROW 4] -->
         <div class="row">
             <!-- [COL 12] -->
-            <div class="col-md-12 subpage-text">
+            <div class="col-md-6 subpage-text">
                 <!-- Awards -->
                 <h2>Awards</h2>
                 <div class="subpage-heading-border"></div>
-                <p><span class="accent-green">2016</span> "Expertise Award", Listed in the top 25 landscaping companies of Milwaukee WI and suburb area </p>
+                <p><span class="accent-green">2016</span> "Expertise Award", Listed in the top 25 landscaping companies of Milwaukee WI and suburban area </p>
                 <p><span class="accent-green">2016</span> "Gold Leaf" Award Winner - Wisconsin Arborist Association</p>
                 <p><span class="accent-green">2015</span> "Simply the Best" Award Winner - Mukwonago Chief </p>
                 <p><span class="accent-green">2014</span> "Simply the Best" Award Winner - Mukwonago Chief </p>
             </div> <!-- end of [COL 12] -->
+
+            <div class="col-md-6 james-bio">
+                <img class="img-responsive" src="images/gold_leaf_award_james_chesebro.jpg">
+                <p>James Chesebro, 2016 ISA Gold Leaf Award Recipient</p>
+                <a class="title-green" href="http://www.waa-isa.org/gallery/" target="_blank">Wisconsin Arborist Association</a>
+            </div>
         </div> <!-- end of [ROW 4] -->
 
     </div> <!--  end of [CONTAINER] -->
