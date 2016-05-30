@@ -73,7 +73,7 @@
         <div class="row">
             <!-- [COL 6] -->
             <div class="col-md-7 subpage-text">
-                <p>Your Personal Gardener is a fully insured landscape firm, capable of taking care of all your individual needs through our professional first class service.  
+                <p>Your Personal Gardener is a fully insured tree and landscape firm, capable of taking care of all your individual needs through our professional first class service.  
                 We aim to achieve a well managed property that you can take pride in and enjoy! We have created a foundation that starts with <span class="accent-green">professional and courteous service </span> while striving to 
                 meet and exceed your expectations. Our goal is not to just earn your present day business but to maintain your business for a lifetime.</p>
                 <br>
@@ -123,7 +123,7 @@
                 <h2>MISSION</h2>
                 <div class="subpage-heading-border"></div>
 
-                <p>To provide quality work that meets and exceeds each clients' expectations, while maintaining and designing landscapes that meet each persons' own individual needs.</p>
+                <p>To provide quality work that meets and exceeds each clients' expectations; while managing, maintaining, and designing landscapes that meet each person's own individual needs.</p>
                 <br><br>
             </div> <!-- end of [COL 5] -->
 
@@ -152,6 +152,7 @@
                 <p><span class="accent-green">Landscape</span> - Wisconsin Landscape Contractors Association</p>
                 <p><span class="accent-green">Tree</span> - International Society of Arboriculture</p>
                 <p><span class="accent-green">Tree</span> - Wisconsin Arborist Association</p>
+                <p><span class="accent-green">Tree</span> - Tree Care industry Association</p>
                 <br><br>
             </div> <!-- end of [COL 5] -->
 
