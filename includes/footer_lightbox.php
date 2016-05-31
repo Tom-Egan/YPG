@@ -33,13 +33,14 @@
 
         <!-- [COL XS 2] Simply the Best -->
         <div class="award-icons">
-            <img class="img-responsive" src="../images/award-simplythebest2.png" title="Voted 2014 Mukwonago Area's 'Simply the Best' Landscape and Lawn Maintenance Company">
+            <img class="img-responsive" src="../images/simply_the_best_2015.png" title="Voted 2015 Mukwonago Area's 'Simply the Best' Landscape and Lawn Maintenance Company">
             <img class="img-responsive icon-margin" src="../images/award-muk2.png" title="Mukwonago Area Chamber of Commerce & Tourism Center">
             <img class="img-responsive icon-margin" src="../images/award-mastergardener2.png" title="UW-Extension Master Gardener Program">
             <img class="img-responsive icon-margin" src="../images/award-pat.png" title="UW-Extension Pesticide Applicator Training Program">
             <img class="img-responsive icon-margin" src="../images/award-waa2.png" title="Wisconsin Arborist Association">
             <img class="img-responsive wlca-fix icon-margin" src="../images/award-wlca2.png" title="Wisconsin Landscape Contractors Association">
-            <img class="img-responsive" src="../images/isa_logo.svg" title="International Society of Arboriculture">          
+            <img class="img-responsive icon-margin" src="../images/isa_logo.svg" title="International Society of Arboriculture">         
+            <img class="img-responsive" src="../images/expertise_logo.svg" title="Expertise.com's Top 25 Best Milwaukee Landscapers">  
         </div>
     </div> <!--/ end of [CONTAINER] -->
 </div> <!--/ end of [FULL CONTAINER] -->
