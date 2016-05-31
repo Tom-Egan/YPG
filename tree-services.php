@@ -39,7 +39,7 @@
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Norican" />
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <!-- favicons and touch icons-->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
@@ -91,6 +91,14 @@
             </div> <!-- end of [COL 6] -->
 
             <div class="col-md-6">
+                <div class="col-xs-8 text-right">
+                    <h3>Trust our ISA certified arborists to take care of all your tree’s needs</h3>
+                </div>
+
+                <div class="col-xs-4 isa-logo-margin">
+                    <img class="img-responsive float-right" src="images/isa_arborist.png" alt="certified isa arborist">
+                </div>
+                <br><br>
                 <img class="img-responsive float-right hide-mobile" src="portfolio/images/tree_service/tree_service_20_page.jpg" alt="image of firewood service">
             </div> <!-- end of [COL 6] -->
         </div> <!--    end of [ROW] -->
